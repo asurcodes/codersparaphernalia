@@ -47,7 +47,7 @@
         <main>
             <div class="container">
                 <div class="cards">
-                    @each('partials.product-card', $products, 'product', 'partials.empty')
+                    @each('partials.product-card', $products, 'product', 'partials.empty-search')
                 </div>
             </div>
         </main>
