@@ -22,6 +22,7 @@ class CreateProductsTable extends Migration
             $table->string('url');
             $table->decimal('price', 6, 2);
             $table->json('tags');
+            $table->string('vendor');
             $table->timestamps();
         });
     }
