@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+// Import normalize css
+@import "~normalize.css";
+
+@font-face {
+    font-family: "Helvetica Neue Light";
+    src: url("../fonts/HelveticaNeueLight.ttf");
+}
+
+// STRUCTURE
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Helvetica Neue Light";
+}
+header, main, footer {
+    align-self: center;
+}
+main {
+    min-height: 600px;
+}
+footer {
+    text-align: center;
+    padding: 3rem;
+}
+p {
+    font-size: 1.1rem;
+}
+a {
+    text-decoration: none;
+    color: #ab212a;
+}
+.container {
+    margin: 1rem;
+}
+.container--fluid {
+    margin: 1rem 0;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    flex: 0 1 99%;
+    margin-bottom: 1.5rem;
+    .card__content {
+        padding: 1rem 0;
+    }
+}
+.card--product {
+    .card__content {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+    }
+}
+.card--category {
+    .card__content {
+        a {
+            font-size: 1.5rem;
+        }
+        p {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 640px;
+        width: 640px;
+    }
+    .card {
+        flex: 0 2 49%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1060px;
+        width: 1060px;
+    }
+    .card {
+        flex: 0 2 24%;
+    }
+}
+
+// STYLES
+
+#search {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    input {
+        height: 3rem;
+        font-size: 1rem;
+        padding: 0 1.5rem;
+        margin : 0.5rem 0;
+    }
+    input[type=input] {
+        width: 70%;
+        color: #333;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 1.5rem 0 0 1.5rem;
+    }
+    input[type=submit] {
+        width: 30%;
+        color: #fff;
+        background-color: #ab212a;
+        box-shadow: none;
+        letter-spacing: 1px;
+        border: 0;
+        cursor: pointer;
+        border-radius: 0 1.5rem 1.5rem 0;
+    }
+}
+h1, h2, h3 {
+    text-align: center;
+}
