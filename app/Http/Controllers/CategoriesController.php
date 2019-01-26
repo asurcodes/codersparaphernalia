@@ -10,7 +10,7 @@ class CategoriesController extends Controller
     public function show ($category)
     {
         $category = Category::where('slug', $category)->first();
-        $products = $category->products()->paginate(16);
+        $products = $category->products()->simplePaginate(16);
 
         return view('category')->with([
             'category' => $category,
