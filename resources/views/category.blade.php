@@ -10,21 +10,21 @@
         <link rel="preconnect dns-prefetch" href="https://fonts.googleapis.com/" crossorigin>
         <link rel="dns-prefetch" href="//www.google-analytics.com">
 
-        <title>CodersParaphernalia - {{$category->title}}</title>
+        <title>CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers</title>
 
         <meta name="description" content="{{$category->meta_description}}">
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
         <link rel="canonical" href="{{url('/')}}">
-        <meta property="og:title" content="CodersParaphernalia - {{$category->title}}">
+        <meta property="og:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers">
         <meta property="og:url" content="{{url('/')}}">
         <meta property="og:description" content="{{$category->meta_description}}">
         <meta property="og:image" content="https://codersparaphernalia.com/logo.png">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="CodersParaphernalia - {{$category->title}}">
+        <meta name="twitter:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers">
         <meta name="twitter:description" content="{{$category->meta_description}}">
         <meta name="twitter:image" content="https://codersparaphernalia.com/logo.png">
         <meta name="twitter:image:src" content="https://codersparaphernalia.com/logo.png">
@@ -42,7 +42,7 @@
 
     <body>
         @include('partials.header', [
-            'title' => $category->name,
+            'title' => 'Top ' . $category->name . ' gift ideas for programmers',
             'description' => $category->long_description
         ])
         <main>
