@@ -3,18 +3,13 @@
 // Import normalize css
 @import "~normalize.css";
 
-@font-face {
-    font-family: "Helvetica Neue Light";
-    src: url("../fonts/HelveticaNeueLight.ttf");
-}
-
 // STRUCTURE
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-family: "Helvetica Neue Light";
+    font-family: sans-serif;
 }
 header, main, footer {
     align-self: center;
@@ -56,6 +51,9 @@ a {
         display: flex;
         justify-content: space-between;
         font-size: 1rem;
+        span {
+            margin-left: 1rem;
+        }
     }
 }
 .card--category {
@@ -151,7 +149,7 @@ h1, h2, h3 {
         }
     }
     .page-item:hover:not(.active):not(.disabled) {
-        background-color: #333;
+        background-color: #ab212a;
         .page-link{
             color: #fff;
         }

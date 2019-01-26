@@ -348,16 +348,11 @@ template {
 [hidden] {
   display: none;
 }
-@font-face {
-  font-family: "Helvetica Neue Light";
-  src: url(/fonts/HelveticaNeueLight.ttf?9ce6b81d106aef68f9250c9247cf1d71);
-}
-
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-family: "Helvetica Neue Light";
+  font-family: sans-serif;
 }
 
 header,
@@ -411,6 +406,10 @@ a {
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
+}
+
+.card--product .card__content span {
+  margin-left: 1rem;
 }
 
 .card--category .card__content a {
@@ -515,7 +514,7 @@ h3 {
 }
 
 .pagination .page-item:hover:not(.active):not(.disabled) {
-  background-color: #333;
+  background-color: #ab212a;
 }
 
 .pagination .page-item:hover:not(.active):not(.disabled) .page-link {
