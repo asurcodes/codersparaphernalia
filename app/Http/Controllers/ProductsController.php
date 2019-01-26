@@ -9,7 +9,7 @@ class ProductsController extends Controller
 {
     public function search (Request $request)
     {
-        $products = Product::search($request->q)->paginate();
+        $products = Product::search($request->q)->paginate(16);
 
         return view('search')->with([
             'query' => $request->q,
