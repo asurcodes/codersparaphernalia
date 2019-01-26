@@ -121,3 +121,39 @@ a {
 h1, h2, h3 {
     text-align: center;
 }
+
+// Pagination
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    .page-item {
+        padding: 0.5rem 0;
+        margin: .5rem;
+        border-radius: 1.5rem;
+        .page-link {
+            color: black;
+            padding: 0.5rem 1rem;
+        }
+    }
+    .page-item.active {
+        background-color: #ab212a;
+        .page-link{
+            color: #fff;
+        }
+    }
+    .page-item.disabled {
+        .page-link{
+            color: #aaa;
+        }
+    }
+    .page-item:hover:not(.active):not(.disabled) {
+        background-color: #333;
+        .page-link{
+            color: #fff;
+        }
+    }
+}

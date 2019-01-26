@@ -482,3 +482,43 @@ h3 {
   text-align: center;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.pagination .page-item {
+  padding: 0.5rem 0;
+  margin: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.pagination .page-item .page-link {
+  color: black;
+  padding: 0.5rem 1rem;
+}
+
+.pagination .page-item.active {
+  background-color: #ab212a;
+}
+
+.pagination .page-item.active .page-link {
+  color: #fff;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #aaa;
+}
+
+.pagination .page-item:hover:not(.active):not(.disabled) {
+  background-color: #333;
+}
+
+.pagination .page-item:hover:not(.active):not(.disabled) .page-link {
+  color: #fff;
+}
+
