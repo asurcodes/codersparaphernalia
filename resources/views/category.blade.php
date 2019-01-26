@@ -50,6 +50,8 @@
                 <div class="cards">
                     @each('partials.product-card', $products, 'product', 'partials.empty-category')
                 </div>
+            </div>
+            <div class="container">
                 {!!$products->links()!!}
             </div>
         </main>

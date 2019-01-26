@@ -50,6 +50,9 @@
                     @each('partials.product-card', $products, 'product', 'partials.empty-search')
                 </div>
             </div>
+            <div class="container">
+                {!!$products->links()!!}
+            </div>
         </main>
         @include('partials.footer')
     </body>
