@@ -16,7 +16,7 @@
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
-        <link rel="canonical" href="{{url('/')}}">
+        <link rel="canonical" href="{{request()->fullUrl()}}">
         <meta property="og:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers">
         <meta property="og:url" content="{{url('/')}}">
         <meta property="og:description" content="{{$category->meta_description}}">
