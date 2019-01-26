@@ -6,8 +6,7 @@
         <link rel="shortcut icon" href="{{url('favicon.ico')}}">
 
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-        <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
-        <link rel="preconnect dns-prefetch" href="https://fonts.googleapis.com/" crossorigin>
+        <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
         <link rel="dns-prefetch" href="//www.google-analytics.com">
 
         <title>CodersParaphernalia - Present ideas for programmers and alike 🗿</title>
@@ -33,6 +32,7 @@
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
         <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+        <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
 
         <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
         <style amp-custom>
@@ -46,6 +46,11 @@
             'description' => 'Welcome to CodersParphernalia, the place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made <b>for devs by devs</b>.'
             ])
         <main>
+            <div class="container">
+                <p>
+                    <b>Pro Tip:</b> If you are looking a present but you are not really sure what that person really does (this is really common, you are not alone) search for <b>all</b> in the serach bar, it will display gifts that are valid for the 99.8% of computer geeks out there. You're welcome! ;)
+                </p>
+            </div>
             <div class="container">
                 <h2>Top 2³ presents!</h2>
                 <p>
