@@ -11,10 +11,12 @@ class CategoriesController extends Controller
     {
         $category = Category::where('slug', $category)->first();
         $products = $category->products()->simplePaginate(16);
+        $relatedCategories = Category::whereIn('id', $category->related)->get();
 
         return view('category')->with([
             'category' => $category,
-            'products' => $products
+            'products' => $products,
+            'relatedCategories' => $relatedCategories
         ]);
     }
 }
