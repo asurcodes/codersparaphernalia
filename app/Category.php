@@ -26,18 +26,6 @@ class Category extends Model
     }
 
     /**
-     * Get the breadcrumbs for this category
-     *
-     * @return string
-     */
-    public function breadcrumbs()
-    {
-        $breadcrumbs = [];
-
-        return json_encode($breadcrumbs);
-    }
-
-    /**
      * Get the breadcrumbs structured data for this category
      *
      * @return string
