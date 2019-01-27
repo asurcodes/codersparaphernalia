@@ -19,14 +19,14 @@
         <meta property="og:title" content="CodersParaphernalia - Search results for {{$query}}">
         <meta property="og:url" content="{{request()->fullUrl()}}">
         <meta property="og:description" content="The best selection of our products found by {{$query}}">
-        <meta property="og:image" content="https://codersparaphernalia.com/logo.png">
+        <meta property="og:image" content="{{url('logo.png')}}">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="CodersParaphernalia - Search results for {{$query}}">
         <meta name="twitter:description" content="The best selection of our products found by {{$query}}">
-        <meta name="twitter:image" content="https://codersparaphernalia.com/logo.png">
-        <meta name="twitter:image:src" content="https://codersparaphernalia.com/logo.png">
+        <meta name="twitter:image" content="{{url('logo.png')}}">
+        <meta name="twitter:image:src" content="{{url('logo.png')}}">
         <meta name="twitter:url" content="{{request()->fullUrl()}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -61,12 +61,18 @@
             "@context": "http://schema.org",
             "@type": "Organization",
             "name": "CoderParaphernalia",
-            "url": "https://codersparaphernalia.com",
-            "logo": "https://codersparaphernalia.com/logo.png"
+            "url": "{{route('home')}}",
+            "logo": "{{url('logo.png')}}"
         }
     </script>
     <script type="application/ld+json">
-        {!! App\Product::generateItemListStructuredData($products)!!}
+        {
+            "@context" => "http://schema.org",
+            "@type" => "ItemList",
+            "name" => "Search results for {{$query}}",
+            "description" => "The best selection of our products found by {{$query}}",
+            "itemListElement" => {!! json_encode(App\Product::generateItemListArray($products)) !!}
+        }
     </script>
     <amp-analytics type="googleanalytics">
         <script type="application/json">

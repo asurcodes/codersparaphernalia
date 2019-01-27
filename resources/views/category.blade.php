@@ -19,14 +19,14 @@
         <meta property="og:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers">
         <meta property="og:url" content="{{request()->fullUrl()}}">
         <meta property="og:description" content="{{$category->meta_description}}">
-        <meta property="og:image" content="https://codersparaphernalia.com/logo.png">
+        <meta property="og:image" content="{{url('logo.png')}}">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers">
         <meta name="twitter:description" content="{{$category->meta_description}}">
-        <meta name="twitter:image" content="https://codersparaphernalia.com/logo.png">
-        <meta name="twitter:image:src" content="https://codersparaphernalia.com/logo.png">
+        <meta name="twitter:image" content="{{url('logo.png')}}">
+        <meta name="twitter:image:src" content="{{url('logo.png')}}">
         <meta name="twitter:url" content="{{request()->fullUrl()}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -68,12 +68,15 @@
             "@context": "http://schema.org",
             "@type": "Organization",
             "name": "CoderParaphernalia",
-            "url": "https://codersparaphernalia.com",
-            "logo": "https://codersparaphernalia.com/logo.png"
+            "url": "{{request()->fullUrl()}}",
+            "logo": "{{url('logo.png')}}"
         }
     </script>
     <script type="application/ld+json">
-        {!! App\Product::generateItemListStructuredData($products)!!}
+        {!! $category->generateBreadcrumbsStructuredData() !!}
+    </script>
+    <script type="application/ld+json">
+        {!! $category->generateProductsItemListStructuredData($products) !!}
     </script>
     <amp-analytics type="googleanalytics">
         <script type="application/json">

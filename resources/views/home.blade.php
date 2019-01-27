@@ -15,19 +15,19 @@
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
-        <link rel="canonical" href="{{url('/')}}">
+        <link rel="canonical" href="{{route('home')}}">
         <meta property="og:title" content="CodersParaphernalia - Present ideas for programmers and alike 🗿">
-        <meta property="og:url" content="{{url('/')}}">
+        <meta property="og:url" content="{{route('home')}}">
         <meta property="og:description" content="Welcome to CodersParphernalia, the place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made for coders by coders">
-        <meta property="og:image" content="https://codersparaphernalia.com/logo.png">
+        <meta property="og:image" content="{{url('logo.png')}}">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="CodersParaphernalia - Present ideas for programmers and alike 🗿">
         <meta name="twitter:description" content="Welcome to CodersParphernalia, the place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made for coders by coders">
-        <meta name="twitter:image" content="https://codersparaphernalia.com/logo.png">
-        <meta name="twitter:image:src" content="https://codersparaphernalia.com/logo.png">
-        <meta name="twitter:url" content="{{url('/')}}">
+        <meta name="twitter:image" content="{{url('logo.png')}}">
+        <meta name="twitter:image:src" content="{{url('logo.png')}}">
+        <meta name="twitter:url" content="{{route('home')}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
@@ -90,10 +90,10 @@
         {
             "@context": "http://schema.org",
             "@type": "WebSite",
-            "url": "{{url('/')}}",
+            "url": "{{route('home')}}",
             "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://codersparaphernalia.com/search?q={search_term_string}",
+                "target": "{{route('home')}}/search?query={search_term_string}",
                 "query-input": "required name=search_term_string"
             }
         }
@@ -103,15 +103,18 @@
             "@context": "http://schema.org",
             "@type": "Organization",
             "name": "CoderParaphernalia",
-            "url": "https://codersparaphernalia.com",
-            "logo": "https://codersparaphernalia.com/logo.png"
+            "url": "{{route('home')}}",
+            "logo": "{{url('logo.png')}}"
         }
     </script>
     <script type="application/ld+json">
-        {!! App\Product::generateItemListStructuredData($topProducts)!!}
-    </script>
-    <script type="application/ld+json">
-        {!! App\Category::generateItemListStructuredData($categories)!!}
+        {
+            "@context" : "http://schema.org",
+            "@type" : "ItemList",
+            "name" : "Top 8 products",
+            "description" : "This are our top picks for computer geeks, all our products are cool but these have something special",
+            "itemListElement" : {!! json_encode(App\Product::generateItemListArray($topProducts)) !!}
+        }
     </script>
     <amp-analytics type="googleanalytics">
         <script type="application/json">
