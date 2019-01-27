@@ -412,12 +412,16 @@ a {
   margin-left: 1rem;
 }
 
+.card--category .card__content {
+  text-align: center;
+}
+
 .card--category .card__content a {
   font-size: 1.5rem;
 }
 
 .card--category .card__content p {
-  margin: 0.5rem 0;
+  margin: 0.25rem 0;
   font-size: 1rem;
 }
 
@@ -501,23 +505,15 @@ h3 {
   padding: 0.5rem 1rem;
 }
 
-.pagination .page-item.active {
-  background-color: #ab212a;
-}
-
 .pagination .page-item.active .page-link {
-  color: #fff;
+  color: #ab212a;
 }
 
 .pagination .page-item.disabled .page-link {
   color: #aaa;
 }
 
-.pagination .page-item:hover:not(.active):not(.disabled) {
-  background-color: #ab212a;
-}
-
 .pagination .page-item:hover:not(.active):not(.disabled) .page-link {
-  color: #fff;
+  color: #ab212a;
 }
 

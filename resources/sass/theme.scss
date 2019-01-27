@@ -58,11 +58,12 @@ a {
 }
 .card--category {
     .card__content {
+        text-align: center;
         a {
             font-size: 1.5rem;
         }
         p {
-            margin: 0.5rem 0;
+            margin: 0.25rem 0;
             font-size: 1rem;
         }
     }
@@ -138,9 +139,8 @@ h1, h2, h3 {
         }
     }
     .page-item.active {
-        background-color: #ab212a;
         .page-link{
-            color: #fff;
+            color: #ab212a;
         }
     }
     .page-item.disabled {
@@ -149,9 +149,8 @@ h1, h2, h3 {
         }
     }
     .page-item:hover:not(.active):not(.disabled) {
-        background-color: #ab212a;
         .page-link{
-            color: #fff;
+            color: #ab212a;
         }
     }
 }
