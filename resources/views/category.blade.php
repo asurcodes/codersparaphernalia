@@ -17,7 +17,7 @@
         <meta http-equiv="content-language" content="en">
         <link rel="canonical" href="{{request()->fullUrl()}}">
         <meta property="og:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers">
-        <meta property="og:url" content="{{url('/')}}">
+        <meta property="og:url" content="{{request()->fullUrl()}}">
         <meta property="og:description" content="{{$category->meta_description}}">
         <meta property="og:image" content="https://codersparaphernalia.com/logo.png">
         <meta property="og:type" content="website">
@@ -27,7 +27,7 @@
         <meta name="twitter:description" content="{{$category->meta_description}}">
         <meta name="twitter:image" content="https://codersparaphernalia.com/logo.png">
         <meta name="twitter:image:src" content="https://codersparaphernalia.com/logo.png">
-        <meta name="twitter:url" content="{{url('/')}}">
+        <meta name="twitter:url" content="{{request()->fullUrl()}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
@@ -53,6 +53,12 @@
             </div>
             <div class="container">
                 {!!$products->links()!!}
+            </div>
+            <div class="container">
+                <h2>You may also be interested in:</h2>
+                <div class="cards">
+                    @each('partials.category-card', $relatedCategories, 'category')
+                </div>
             </div>
         </main>
         @include('partials.footer')

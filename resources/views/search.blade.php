@@ -6,7 +6,7 @@
         <link rel="shortcut icon" href="{{url('favicon.ico')}}">
 
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-
+        <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
         <link rel="dns-prefetch" href="//www.google-analytics.com">
 
         <title>CodersParaphernalia - Search results for {{$query}}</title>
@@ -15,9 +15,9 @@
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
-        <link rel="canonical" href="{{url('/')}}">
+        <link rel="canonical" href="{{request()->fullUrl()}}}">
         <meta property="og:title" content="CodersParaphernalia - Search results for {{$query}}">
-        <meta property="og:url" content="{{url('/')}}">
+        <meta property="og:url" content="{{request()->fullUrl()}}">
         <meta property="og:description" content="The best selection of our products found by {{$query}}">
         <meta property="og:image" content="https://codersparaphernalia.com/logo.png">
         <meta property="og:type" content="website">
@@ -27,7 +27,7 @@
         <meta name="twitter:description" content="The best selection of our products found by {{$query}}">
         <meta name="twitter:image" content="https://codersparaphernalia.com/logo.png">
         <meta name="twitter:image:src" content="https://codersparaphernalia.com/logo.png">
-        <meta name="twitter:url" content="{{url('/')}}">
+        <meta name="twitter:url" content="{{request()->fullUrl()}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
