@@ -38,16 +38,32 @@ class Product extends Model
     }
 
     /**
-     * Get the item list structured data for the products provided
+     * Get the item list array for the products provided
      *
      * @param $products
      *
-     * @return string
+     * @return array
      */
-    static public function generateItemListStructuredData($products) : string
+    static public function generateItemListArray($products) : array
     {
         $itemList = [];
-
-        return json_encode($itemList);
+        foreach ($products as $key => $product) {
+            $itemList[] = [
+                "@type" => 'ListItem',
+                "position" => $key + 1,
+                "item" => [
+                    "@type" => "Product",
+                    "name" => $product->name,
+                    "image" => $product->image,
+                    "offers" => [
+                        "price" => $product->price,
+                        "priceCurrency" => "USD",
+                        "availability" => "InStock"
+                    ],
+                    "url" => route('product.show', $product->id)
+                ]
+            ];
+        }
+        return $itemList;
     }
 }
