@@ -7,12 +7,17 @@ use Illuminate\Http\Request;
 
 class ProductsController extends Controller
 {
+    public function show (Product $product)
+    {
+        return redirect($product->url);
+    }
+
     public function search (Request $request)
     {
-        $products = Product::search($request->q)->paginate();
+        $products = Product::search($request->get('query'))->paginate(16);
 
         return view('search')->with([
-            'query' => $request->q,
+            'query' => $request->get('query'),
             'products' => $products
         ]);
     }

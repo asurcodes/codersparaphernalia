@@ -17,10 +17,11 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'stickers',
                 'name' => 'Stickers',
                 'image' => 'https://placehold.it/600x600',
-                'description' => 'Lorem ipsum',
-                'meta_title' => 'Lorem ipsum',
-                'meta_description' => 'Lorem ipsum',
-                'long_description' => 'Lorem ipsum',
+                'description' => 'If there is something programmers love is to put sticker on everything.',
+                'meta_title' => 'The best selection of stickers',
+                'meta_description' => 'If there is something programmers love is to put sticker on everything.',
+                'long_description' => 'If there is something programmers love is to put sticker on everything, our laptop, our screen or our water bottle, this is one of the best categories for it´s incredible variety and affordability, there is no chance of failure',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'posters',
@@ -30,6 +31,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'decoration',
@@ -39,6 +41,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'periferals',
@@ -48,6 +51,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'books',
@@ -57,6 +61,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'gadgets',
@@ -66,6 +71,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'games',
@@ -75,6 +81,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'courses',
@@ -84,6 +91,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'miscelaneous',
@@ -93,6 +101,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'bags',
@@ -102,6 +111,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'men-apparel',
@@ -111,6 +121,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'women-apparel',
@@ -120,6 +131,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'babies-apparel',
@@ -129,6 +141,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'phone-cases',
@@ -138,6 +151,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'laptop-cases',
@@ -147,6 +161,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
             [
                 'slug' => 'mugs',
@@ -156,6 +171,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'Lorem ipsum',
                 'meta_description' => 'Lorem ipsum',
                 'long_description' => 'Lorem ipsum',
+                'related' => json_encode([1, 2, 3, 4])
             ],
         ]);
     }

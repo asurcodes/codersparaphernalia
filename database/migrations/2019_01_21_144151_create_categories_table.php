@@ -22,6 +22,7 @@ class CreateCategoriesTable extends Migration
             $table->string('meta_title');
             $table->text('meta_description');
             $table->longText('long_description');
+            $table->json('related');
         });
     }
 

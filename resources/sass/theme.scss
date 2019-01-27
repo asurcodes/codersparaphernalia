@@ -3,18 +3,13 @@
 // Import normalize css
 @import "~normalize.css";
 
-@font-face {
-    font-family: "Helvetica Neue Light";
-    src: url("../fonts/HelveticaNeueLight.ttf");
-}
-
 // STRUCTURE
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-family: "Helvetica Neue Light";
+    font-family: sans-serif;
 }
 header, main, footer {
     align-self: center;
@@ -56,15 +51,19 @@ a {
         display: flex;
         justify-content: space-between;
         font-size: 1rem;
+        span {
+            margin-left: 1rem;
+        }
     }
 }
 .card--category {
     .card__content {
+        text-align: center;
         a {
             font-size: 1.5rem;
         }
         p {
-            margin: 0.5rem 0;
+            margin: 0.25rem 0;
             font-size: 1rem;
         }
     }
@@ -120,4 +119,38 @@ a {
 }
 h1, h2, h3 {
     text-align: center;
+}
+
+// Pagination
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    .page-item {
+        padding: 0.5rem 0;
+        margin: .5rem;
+        border-radius: 1.5rem;
+        .page-link {
+            color: black;
+            padding: 0.5rem 1rem;
+        }
+    }
+    .page-item.active {
+        .page-link{
+            color: #ab212a;
+        }
+    }
+    .page-item.disabled {
+        .page-link{
+            color: #aaa;
+        }
+    }
+    .page-item:hover:not(.active):not(.disabled) {
+        .page-link{
+            color: #ab212a;
+        }
+    }
 }

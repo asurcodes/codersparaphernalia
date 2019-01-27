@@ -348,16 +348,11 @@ template {
 [hidden] {
   display: none;
 }
-@font-face {
-  font-family: "Helvetica Neue Light";
-  src: url(/fonts/HelveticaNeueLight.ttf?9ce6b81d106aef68f9250c9247cf1d71);
-}
-
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-family: "Helvetica Neue Light";
+  font-family: sans-serif;
 }
 
 header,
@@ -413,12 +408,20 @@ a {
   font-size: 1rem;
 }
 
+.card--product .card__content span {
+  margin-left: 1rem;
+}
+
+.card--category .card__content {
+  text-align: center;
+}
+
 .card--category .card__content a {
   font-size: 1.5rem;
 }
 
 .card--category .card__content p {
-  margin: 0.5rem 0;
+  margin: 0.25rem 0;
   font-size: 1rem;
 }
 
@@ -480,5 +483,37 @@ h1,
 h2,
 h3 {
   text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.pagination .page-item {
+  padding: 0.5rem 0;
+  margin: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.pagination .page-item .page-link {
+  color: black;
+  padding: 0.5rem 1rem;
+}
+
+.pagination .page-item.active .page-link {
+  color: #ab212a;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #aaa;
+}
+
+.pagination .page-item:hover:not(.active):not(.disabled) .page-link {
+  color: #ab212a;
 }
 

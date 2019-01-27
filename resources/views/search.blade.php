@@ -6,8 +6,7 @@
         <link rel="shortcut icon" href="{{url('favicon.ico')}}">
 
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-        <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
-        <link rel="preconnect dns-prefetch" href="https://fonts.googleapis.com/" crossorigin>
+        <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
         <link rel="dns-prefetch" href="//www.google-analytics.com">
 
         <title>CodersParaphernalia - Search results for {{$query}}</title>
@@ -16,23 +15,24 @@
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
-        <link rel="canonical" href="{{url('/')}}">
+        <link rel="canonical" href="{{request()->fullUrl()}}}">
         <meta property="og:title" content="CodersParaphernalia - Search results for {{$query}}">
-        <meta property="og:url" content="{{url('/')}}">
+        <meta property="og:url" content="{{request()->fullUrl()}}">
         <meta property="og:description" content="The best selection of our products found by {{$query}}">
-        <meta property="og:image" content="https://codersparaphernalia.com/logo.png">
+        <meta property="og:image" content="{{url('logo.png')}}">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="CodersParaphernalia - Search results for {{$query}}">
         <meta name="twitter:description" content="The best selection of our products found by {{$query}}">
-        <meta name="twitter:image" content="https://codersparaphernalia.com/logo.png">
-        <meta name="twitter:image:src" content="https://codersparaphernalia.com/logo.png">
-        <meta name="twitter:url" content="{{url('/')}}">
+        <meta name="twitter:image" content="{{url('logo.png')}}">
+        <meta name="twitter:image:src" content="{{url('logo.png')}}">
+        <meta name="twitter:url" content="{{request()->fullUrl()}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
         <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+        <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
 
         <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
         <style amp-custom>
@@ -50,6 +50,9 @@
                     @each('partials.product-card', $products, 'product', 'partials.empty-search')
                 </div>
             </div>
+            <div class="container">
+                {!!$products->links()!!}
+            </div>
         </main>
         @include('partials.footer')
     </body>
@@ -58,12 +61,18 @@
             "@context": "http://schema.org",
             "@type": "Organization",
             "name": "CoderParaphernalia",
-            "url": "https://codersparaphernalia.com",
-            "logo": "https://codersparaphernalia.com/logo.png"
+            "url": "{{route('home')}}",
+            "logo": "{{url('logo.png')}}"
         }
     </script>
     <script type="application/ld+json">
-        {!! App\Product::generateItemListStructuredData($products)!!}
+        {
+            "@context" => "http://schema.org",
+            "@type" => "ItemList",
+            "name" => "Search results for {{$query}}",
+            "description" => "The best selection of our products found by {{$query}}",
+            "itemListElement" => {!! json_encode(App\Product::generateItemListArray($products)) !!}
+        }
     </script>
     <amp-analytics type="googleanalytics">
         <script type="application/json">
