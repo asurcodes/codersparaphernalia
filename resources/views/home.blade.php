@@ -51,19 +51,9 @@
                     <b>Pro Tip:</b> If you are looking a present but you are not really sure what that person really does (this is really common, you are not alone) search for <b>all</b> in the serach bar, it will display gifts that are valid for the 99.8% of computer geeks out there. You're welcome! ;)
                 </p>
             </div>
+
             <div class="container">
-                <h2>Top 2³ presents!</h2>
-                <p>
-                    This are our top picks for computer geeks, all our products are cool but these have something special.
-                </p>
-            </div>
-            <div class="container">
-                <div class="cards">
-                    @each('partials.product-card', $topProducts, 'product')
-                </div>
-            </div>
-            <div class="container">
-                <h2>Categories for anyone</h2>
+                <h2>Our gifts selection for devs</h2>
                 <p>
                     Is your kid the youngest Facebook programmer being 2 years old? Don't worry, we have stylish bodysuits. Got a new geeky partner and want to surprise him/her with some cool underwear? We got you covered. You have a sticker fetish? Welcome home.
                 </p>
@@ -73,6 +63,19 @@
                     @each('partials.category-card', $categories, 'category')
                 </div>
             </div>
+
+            <div class="container">
+                <h2>Top 8 presents for developers!</h2>
+                <p>
+                    This are our top picks for computer geeks, all our products are cool but these have something special.
+                </p>
+            </div>
+            <div class="container">
+                <div class="cards">
+                    @each('partials.product-card', $topProducts, 'product')
+                </div>
+            </div>
+
             <div class="container">
                 <h2>What is CodersParaphernalia?</h2>
                 <p>
