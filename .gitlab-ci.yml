@@ -89,13 +89,14 @@ codestyle:
 
 production:
   stage: deploy
-  script:
+  before_script:
     - eval $(ssh-agent -s)
-    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
     - ssh-keyscan codersparaphernalia.com >> ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
+  script:
     - ssh $SERVER_USER@$SERVER_IP
     - cd /var/www/html/coders-paraphernalia
     - git pull
