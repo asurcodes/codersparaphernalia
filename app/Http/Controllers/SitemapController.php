@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class SitemapController extends Controller
 {
-    public function sitemap ()
+    public function sitemap()
     {
         $categories = Category::get();
 

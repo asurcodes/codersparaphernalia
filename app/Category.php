@@ -80,7 +80,7 @@ class Category extends Model
      *
      * @return array
      */
-    static public function generateCategoriesItemListStructuredData($categories) : string
+    public static function generateCategoriesItemListStructuredData($categories) : string
     {
         $itemList = [];
         foreach ($categories as $key => $category) {

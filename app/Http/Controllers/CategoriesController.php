@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class CategoriesController extends Controller
 {
-    public function show ($category)
+    public function show($category)
     {
         $category = Category::where('slug', $category)->first();
         $products = $category->products()->simplePaginate(16);

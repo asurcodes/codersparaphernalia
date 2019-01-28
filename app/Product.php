@@ -44,7 +44,7 @@ class Product extends Model
      *
      * @return array
      */
-    static public function generateItemListArray($products) : array
+    public static function generateItemListArray($products) : array
     {
         $itemList = [];
         foreach ($products as $key => $product) {
