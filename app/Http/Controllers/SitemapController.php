@@ -9,7 +9,9 @@ class SitemapController extends Controller
 {
     public function sitemap()
     {
-        $categories = Category::get();
+        $categories = Cache::remember('categories', 720, function () {
+            return Category::get();
+        });
 
         return response()->view('sitemap', compact('categories'))
             ->header('Content-Type', 'text/xml');
