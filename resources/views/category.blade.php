@@ -76,7 +76,13 @@
         {!! $category->generateBreadcrumbsStructuredData() !!}
     </script>
     <script type="application/ld+json">
-        {!! $category->generateProductsItemListStructuredData($products) !!}
+        {
+            "@context" : "http://schema.org",
+            "@type" : "ItemList",
+            "name" : "{{$category->name}}",
+            "description" : "{{$category->meta_description}}",
+            "itemListElement" : {!! json_encode(App\Product::generateItemListArray($products)) !!}
+        }
     </script>
     <amp-analytics type="googleanalytics">
         <script type="application/json">

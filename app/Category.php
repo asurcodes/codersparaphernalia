@@ -54,51 +54,26 @@ class Category extends Model
     }
 
     /**
-     * Get the products item list structured data for the categories provided
-     *
-     * @param $categories
-     *
-     * @return string
-     */
-    public function generateProductsItemListStructuredData($products) : string
-    {
-        $structuredData = [
-            "@context" => "http://schema.org",
-            "@type" => "ItemList",
-            "name" => $this->name,
-            "description" => $this->description,
-            "itemListElement" => Product::generateItemListArray($products)
-        ];
-
-        return json_encode($structuredData);
-    }
-
-    /**
      * Get the item list structured data for the categories in the homepage
      *
      * @param $categories
      *
      * @return array
      */
-    public static function generateCategoriesItemListStructuredData($categories) : string
+    public static function generateItemListArray($categories) : array
     {
         $itemList = [];
         foreach ($categories as $key => $category) {
             $itemList[] = [
                 "@type" => 'ListItem',
                 "position" => $key + 1,
-                "url" => route('category.show', $category->slug)
+                "url" => route('category.show', $category->slug),
+                "name" => $category->name,
+                "description" => $category->short_description,
+                "image" => $category->image
             ];
         }
 
-        $structuredData = [
-            "@context" => "http://schema.org",
-            "@type" => "ItemList",
-            "name" => "Lorem Ipsum",
-            "description" => "Lorem Ipsum",
-            "itemListElement" => $itemList
-        ];
-
-        return json_encode($structuredData);
+        return $itemList;
     }
 }

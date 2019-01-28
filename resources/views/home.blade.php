@@ -111,9 +111,9 @@
         {
             "@context" : "http://schema.org",
             "@type" : "ItemList",
-            "name" : "Top 8 products",
+            "name" : "CodersParaphernalia categories",
             "description" : "This are our top picks for computer geeks, all our products are cool but these have something special",
-            "itemListElement" : {!! json_encode(App\Product::generateItemListArray($topProducts)) !!}
+            "itemListElement" : {!! json_encode(App\Category::generateItemListArray($categories)) !!}
         }
     </script>
     <amp-analytics type="googleanalytics">

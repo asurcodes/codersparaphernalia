@@ -67,11 +67,11 @@
     </script>
     <script type="application/ld+json">
         {
-            "@context" => "http://schema.org",
-            "@type" => "ItemList",
-            "name" => "Search results for {{$query}}",
-            "description" => "The best selection of our products found by {{$query}}",
-            "itemListElement" => {!! json_encode(App\Product::generateItemListArray($products)) !!}
+            "@context": "http://schema.org",
+            "@type": "ItemList",
+            "name": "Search results for {{$query}}",
+            "description": "The best selection of our products found by {{$query}}",
+            "itemListElement": {!! json_encode(App\Product::generateItemListArray($products)) !!}
         }
     </script>
     <amp-analytics type="googleanalytics">
