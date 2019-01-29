@@ -8,8 +8,12 @@ use Illuminate\Http\Request;
 
 class ProductsController extends Controller
 {
-    public function show(Product $product)
+    public function show($product)
     {
+        $product = Cache::remember("product-$product", 720, function () use ($product) {
+            return Product::where('slug', $product)->first();
+        });
+
         return redirect($product->url);
     }
 
