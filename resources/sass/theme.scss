@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    color: #111;
     font-family: sans-serif;
 }
 header, main, footer {
@@ -104,12 +105,12 @@ a {
     input {
         height: 3rem;
         font-size: 1rem;
-        padding: 0 1.5rem;
         margin : 0.5rem 0;
     }
     input[type=input] {
         width: 70%;
         color: #333;
+        padding: 0 1.5rem;
         box-sizing: border-box;
         border: 1px solid #ddd;
         border-radius: 1.5rem 0 0 1.5rem;
