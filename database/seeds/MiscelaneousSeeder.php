@@ -14,7 +14,15 @@ class MiscelaneousSeeder extends Seeder
     {
         $category = Category::where('slug', 'miscelaneous')->first();
         $category->products()->createMany([
-            //
+            [
+                'slug' => 'yellow-rubber-bath-duck',
+                'title' => 'Yellow Rubber Bath Duck',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/31alIFmbYpL._AC_AA400_.jpg',
+                'url' => 'https://amzn.to/2FVr7Kb',
+                'price' => 8.99,
+                'tags' => ['duck'],
+                'vendor' => 'amazon'
+            ],
         ]);
     }
 }

@@ -24,8 +24,8 @@ class PostersSeeder extends Seeder
                 'vendor' => 'etsy'
             ],
             [
-                'slug' => 'original-gameboy-patent-poster',
-                'title' => 'Original GameBoy patent poster',
+                'slug' => 'binary-rain-poster',
+                'title' => 'Binary rain poster',
                 'image' => 'https://ih1.redbubble.net/image.271865433.7314/poster%2C420x415%2Cf8f8f8-pad%2C420x460%2Cf8f8f8.lite-1u1.jpg',
                 'url' => 'https://www.redbubble.com/people/makpecetet/works/23597314-programmer?p=poster',
                 'price' => 12.36,

@@ -15,7 +15,6 @@ class DatabaseSeeder extends Seeder
         // Products
         $this->call(StickersSeeder::class);
         $this->call(PostersSeeder::class);
-        $this->call(DecorationSeeder::class);
         $this->call(PeriferalsSeeder::class);
         $this->call(BooksSeeder::class);
         $this->call(GadgetsSeeder::class);
@@ -29,5 +28,6 @@ class DatabaseSeeder extends Seeder
         $this->call(PhoneCasesSeeder::class);
         $this->call(LaptopCasesSeeder::class);
         $this->call(MugsSeeder::class);
+        $this->call(ComputersSeeder::class);
     }
 }
