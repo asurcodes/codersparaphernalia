@@ -163,6 +163,16 @@ class CategoriesTableSeeder extends Seeder
                 'long_description' => 'We love our coffee, we don\'t get paid with it tho, those designs are JOKES',
                 'related' => json_encode([1, 2, 3, 4])
             ],
+            [
+                'slug' => 'computers',
+                'name' => 'Computers',
+                'image' => 'https://placehold.it/600x600',
+                'description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges',
+                'meta_title' => 'The best selection of computers to gift programmers',
+                'meta_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
+                'long_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
+                'related' => json_encode([1, 2, 3, 4])
+            ],
         ]);
     }
 }
