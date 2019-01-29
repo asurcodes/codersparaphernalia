@@ -34,16 +34,6 @@ class CategoriesTableSeeder extends Seeder
                 'related' => json_encode([1, 2, 3, 4])
             ],
             [
-                'slug' => 'decoration',
-                'name' => 'Decoration',
-                'image' => 'https://placehold.it/600x600',
-                'description' => 'Turn a spot from average to a conversation point',
-                'meta_title' => 'The best selection of decoration items to gift programmers',
-                'meta_description' => 'Turn a spot from average to a conversation point',
-                'long_description' => 'Does your place need a little of something, check out how with some of this products anywhere can turn from an average spot to a conversation point.',
-                'related' => json_encode([1, 2, 3, 4])
-            ],
-            [
                 'slug' => 'periferals',
                 'name' => 'Periferals',
                 'image' => 'https://placehold.it/600x600',
@@ -171,6 +161,16 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of mugs to gift programmers',
                 'meta_description' => 'We love our coffee, we don\'t get paid with it tho, those designs are JOKES',
                 'long_description' => 'We love our coffee, we don\'t get paid with it tho, those designs are JOKES',
+                'related' => json_encode([1, 2, 3, 4])
+            ],
+            [
+                'slug' => 'computers',
+                'name' => 'Computers',
+                'image' => 'https://placehold.it/600x600',
+                'description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges',
+                'meta_title' => 'The best selection of computers to gift programmers',
+                'meta_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
+                'long_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
                 'related' => json_encode([1, 2, 3, 4])
             ],
         ]);

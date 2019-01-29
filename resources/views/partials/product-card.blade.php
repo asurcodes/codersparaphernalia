@@ -1,6 +1,6 @@
 <div class="card card--product">
     <a class="outbound"
-        href="{{route('product.show', $product->id)}}"
+        href="{{route('product.show', $product->slug)}}"
         rel="nofollow"
         target="_blank"
         aria-label="Buy {{$product->title}}">
@@ -10,14 +10,14 @@
                 layout="responsive"
                 alt="{{$product->title}}">
     </a>
+    <div class="card__price"><b>${{$product->price}}</b></div>
     <div class="card__content">
         <a class="outbound"
-            href="{{route('product.show', $product->id)}}"
+            href="{{route('product.show', $product->slug)}}"
             rel="nofollow"
             target="_blank">
                 {{$product->title}}
         </a>
-        <span><b>${{$product->price}}</b></span>
     </div>
 </div>
 
