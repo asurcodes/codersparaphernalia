@@ -26,10 +26,13 @@ p {
 }
 a {
     text-decoration: none;
-    color: #ab212a;
+    color: #111;
+    &:hover{
+        color: #ab212a;
+    }
 }
 .container {
-    margin: 1rem;
+    margin: 1rem 2rem;
 }
 .container--fluid {
     margin: 1rem 0;
@@ -47,13 +50,18 @@ a {
     }
 }
 .card--product {
+    position: relative;
     .card__content {
-        display: flex;
-        justify-content: space-between;
+        text-align: center;
         font-size: 1rem;
-        span {
-            margin-left: 1rem;
-        }
+    }
+    .card__price {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        background-color: #ab212a;
+        padding: 0.5rem;
     }
 }
 .card--category {
@@ -70,8 +78,8 @@ a {
 }
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 640px;
-        width: 640px;
+        max-width: 620px;
+        width: 620px;
     }
     .card {
         flex: 0 2 49%;
@@ -79,8 +87,8 @@ a {
 }
 @media screen and (min-width: 1200px) {
     .container {
-        max-width: 1060px;
-        width: 1060px;
+        max-width: 1000px;
+        width: 1000px;
     }
     .card {
         flex: 0 2 24%;
