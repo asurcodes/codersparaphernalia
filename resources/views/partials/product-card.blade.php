@@ -19,6 +19,13 @@
                         layout="responsive"
                         alt="{{$product->title}}">
                     @break
+                @case('amazon')
+                    <amp-img src="{{$product->image}}"
+                        width="480"
+                        height="480"
+                        layout="responsive"
+                        alt="{{$product->title}}">
+                    @break
                 @default
                     <amp-img src="{{$product->image}}"
                         width="420"
