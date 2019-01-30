@@ -51,7 +51,7 @@ class Product extends Model
             $itemList[] = [
                 "@type" => 'ListItem',
                 "position" => $key + 1,
-                "url" => route('product.show', $product->id),
+                "url" => route('product.show', $product->slug),
                 "name" => $product->title,
                 "image" => $product->image
             ];

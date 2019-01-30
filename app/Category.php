@@ -69,7 +69,7 @@ class Category extends Model
                 "position" => $key + 1,
                 "url" => route('category.show', $category->slug),
                 "name" => $category->name,
-                "description" => $category->short_description,
+                "description" => $category->meta_description,
                 "image" => $category->image
             ];
         }
