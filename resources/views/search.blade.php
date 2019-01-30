@@ -90,7 +90,7 @@
                     "selector": ".outbound",
                     "request": "event",
                     "vars": {
-                        "eventCategory": "outboud-link",
+                        "eventCategory": "outbound-link",
                         "eventAction": "click"
                     }
                 }
