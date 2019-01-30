@@ -144,13 +144,13 @@ class CategoriesTableSeeder extends Seeder
                 'related' => json_encode(['laptop-cases', 'computers', 'gadgets', 'miscelaneous'])
             ],
             [
-                'slug' => 'laptop-cases',
-                'name' => 'Laptop cases',
                 'image' => 'https://placehold.it/600x600',
                 'description' => 'Cool looking cases and skins for a programmers best friend',
                 'meta_title' => 'The best selection of laptop cases to gift programmers',
                 'meta_description' => 'Cool looking cases and skins for a programmers best friend',
                 'long_description' => 'Cool looking cases and skins for a programmers best friend',
+                'slug' => 'laptop-sleeves',
+                'name' => 'Laptop sleeves',
                 'related' => json_encode(['phone-cases', 'computers', 'gadgets', 'miscelaneous'])
             ],
             [
