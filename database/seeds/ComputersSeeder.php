@@ -33,8 +33,8 @@ class ComputersSeeder extends Seeder
                 'vendor' => 'amazon'
             ],
             [
-                'slug' => 'blade-15-laptop',
-                'title' => 'Blade 15, FHD 60 Hz, i7-8750H, 16GB RAM, 256GB SSD, GTX 1060 Max-Q',
+                'slug' => 'razer-blade-15-laptop',
+                'title' => 'Razer Blade 15, FHD 60 Hz, i7-8750H, 16GB RAM, 256GB SSD, GTX 1060 Max-Q',
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/413Mo11zRjL._AC_US436_QL65_.jpg',
                 'url' => 'https://amzn.to/2WvkqDJ',
                 'price' => 1799.00,
