@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="{{url('favicon.ico')}}">
+        <link rel="manifest" href="{{url('manifest.json')}}">
 
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
