@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
         $this->call(WomenApparelSeeder::class);
         $this->call(BabiesApparelSeeder::class);
         $this->call(PhoneCasesSeeder::class);
-        $this->call(LaptopCasesSeeder::class);
+        $this->call(LaptopSleevesSeeder::class);
         $this->call(MugsSeeder::class);
         $this->call(ComputersSeeder::class);
     }
