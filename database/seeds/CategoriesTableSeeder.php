@@ -41,7 +41,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of periferals to gift programmers',
                 'meta_description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware.',
                 'long_description' => 'Any professional needs the right tools to perform at it\'s fullest potential, look here for the stuff required to do so, gift some hardware.',
-                'related' => json_encode(['computers', 'gadgets', 'laptop-cases', 'miscelaneous'])
+                'related' => json_encode(['computers', 'gadgets', 'laptop-sleeves', 'miscelaneous'])
             ],
             [
                 'slug' => 'books',
@@ -71,7 +71,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of games to gift programmers',
                 'meta_description' => 'Let\'s face it, many of us still carry a kid inside, and kids love their videogames',
                 'long_description' => 'Let\'s face it, many of us still carry a kid inside, and kids love their videogames and can also be used to get rid of us for several hours. All advantages.',
-                'related' => json_encode(['periferals', 'computers', 'stickers', 'laptop-cases'])
+                'related' => json_encode(['periferals', 'computers', 'stickers', 'laptop-sleeves'])
             ],
             [
                 'slug' => 'courses',
@@ -141,16 +141,16 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of phone cases to gift programmers',
                 'meta_description' => 'Now a days our entire life is on our smartphone, protecting it is important, do it with style',
                 'long_description' => 'Now a days our entire life is on our smartphone, protecting it is important, do it with style',
-                'related' => json_encode(['laptop-cases', 'computers', 'gadgets', 'miscelaneous'])
+                'related' => json_encode(['laptop-sleeves', 'computers', 'gadgets', 'miscelaneous'])
             ],
             [
+                'slug' => 'laptop-sleeves',
+                'name' => 'Laptop sleeves',
                 'image' => 'https://placehold.it/600x600',
                 'description' => 'Cool looking cases and skins for a programmers best friend',
                 'meta_title' => 'The best selection of laptop cases to gift programmers',
                 'meta_description' => 'Cool looking cases and skins for a programmers best friend',
                 'long_description' => 'Cool looking cases and skins for a programmers best friend',
-                'slug' => 'laptop-sleeves',
-                'name' => 'Laptop sleeves',
                 'related' => json_encode(['phone-cases', 'computers', 'gadgets', 'miscelaneous'])
             ],
             [
@@ -171,7 +171,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of computers to gift programmers',
                 'meta_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
                 'long_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
-                'related' => json_encode(['laptop-cases', 'stickers', 'periferals', 'gadgets'])
+                'related' => json_encode(['laptop-sleeves', 'stickers', 'periferals', 'gadgets'])
             ],
         ]);
     }
