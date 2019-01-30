@@ -34,7 +34,7 @@ class PostersSeeder extends Seeder
             ],
             [
                 'slug' => 'ada-lovelace-rainbow-of-microchips-poster',
-                'title' => 'Ada Lovelace microhips rainbow poster',
+                'title' => 'Ada Lovelace microchips rainbow poster',
                 'image' => 'https://ih0.redbubble.net/image.187891216.6311/poster%2C420x415%2Cf8f8f8-pad%2C420x460%2Cf8f8f8.lite-1.jpg',
                 'url' => 'https://www.redbubble.com/people/unitshifter/works/20706311-ada-lovelace-rainbow-of-microchips?p=poster',
                 'price' => 12.36,
