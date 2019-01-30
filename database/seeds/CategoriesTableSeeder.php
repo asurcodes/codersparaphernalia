@@ -111,7 +111,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of men clothes and accesories to gift programmers',
                 'meta_description' => 'We aren\'t really well known for our good styling skills, here you have the solution',
                 'long_description' => 'We aren\'t really well known for our good styling skills, here you have the solution',
-                'related' => json_encode(['games', 'gadgets', 'women-apparel', 'baby-apparel'])
+                'related' => json_encode(['games', 'gadgets', 'women-apparel', 'babies-apparel'])
             ],
             [
                 'slug' => 'women-apparel',
@@ -121,7 +121,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of women clothes and accesories to gift programmers',
                 'meta_description' => 'Level up your game and show off with these trendy clothes',
                 'long_description' => 'Level up your game and show off with these trendy clothes',
-                'related' => json_encode(['bugs', 'mugs', 'men-apparel', 'baby-apparel'])
+                'related' => json_encode(['bags', 'mugs', 'men-apparel', 'babies-apparel'])
             ],
             [
                 'slug' => 'babies-apparel',
