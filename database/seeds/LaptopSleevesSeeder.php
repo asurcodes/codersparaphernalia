@@ -26,7 +26,7 @@ class LaptopSleevesSeeder extends Seeder
             [
                 'slug' => 'there-are-ten-type-of-people-laptop-sleeve',
                 'title' => 'There are 10 Types Of People In the World Laptop Sleeve',
-                'image' => 'https://ih0.redbubble.net/image.257301329.8232/pd%2C380x420%2Cmacbook_air_13-pad%2C420x460%2Cf8f8f8.lite-1u1.jpg',
+                'image' => 'https://ih0.redbubble.net/image.257301329.8232/ls%2C13inch%2C520x560-pad%2C420x460%2Cf8f8f8.lite-2u1.jpg',
                 'url' => 'https://www.redbubble.com/people/keepers/works/23138232-those-who-understand-binary-and-those-who-dont?p=laptop-sleeve',
                 'price' => 35.50,
                 'tags' => [],
@@ -50,6 +50,15 @@ class LaptopSleevesSeeder extends Seeder
                 'tags' => [],
                 'vendor' => 'redbubble'
             ],
+            [
+                'slug' => 'your-future-is-created-by-what-you-do-today-laptop-sleeve',
+                'title' => 'Your Future Is Created By What You Do Today Laptop Sleeve',
+                'image' => 'https://ih0.redbubble.net/image.218515791.1063/ls%2C13inch%2C520x560-pad%2C420x460%2Cf8f8f8.lite-2u3.jpg',
+                'url' => 'https://www.redbubble.com/people/bkdesign/works/21911063-programmer?p=laptop-sleeve',
+                'price' => 36.98,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ]
         ]);
     }
 }

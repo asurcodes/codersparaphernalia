@@ -68,6 +68,42 @@ class MenApparelSeeder extends Seeder
                 'tags' => [],
                 'vendor' => 'redbubble'
             ],
+            [
+                'slug' => 'code-is-strong-with-this-one-t-shirt',
+                'title' => 'Code Is Strong With This One T-Shirt',
+                'image' => 'https://ih1.redbubble.net/image.380506615.1481/ra%2Clongsleeve%2Cx1850%2Cfafafa%3Aca443f4786%2Cfront-c%2C420%2C360%2C420%2C460-bg%2Cf8f8f8.lite-1u5.jpg',
+                'url' => 'https://www.redbubble.com/people/djbalogh/works/26691481-code-is-strong-with-this-one?p=t-shirt',
+                'price' => 25.52,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ],
+            [
+                'slug' => 'i-have-no-life-t-shirt',
+                'title' => 'I Have No Life T-Shirt',
+                'image' => 'https://ih0.redbubble.net/image.196660130.5629/ra%2Cunisex_tshirt%2Cx1850%2C101010%3A01c5ca27c6%2Cfront-c%2C435%2C380%2C420%2C460-bg%2Cf8f8f8.lite-1u3.jpg',
+                'url' => 'https://www.redbubble.com/people/bkdesign/works/21075629-programmer?p=t-shirt',
+                'price' => 20.56,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ],
+            [
+                'slug' => 'maximum-call-stack-size-exceeded-t-shirt',
+                'title' => 'Maximum Call Stack Size Exceeded T-Shirt',
+                'image' => 'https://ih1.redbubble.net/image.429378322.1168/ra%2Cunisex_tshirt%2Cx1850%2Cheather_grey%2Cfront-c%2C435%2C380%2C420%2C460-bg%2Cf8f8f8.lite-1u2.jpg',
+                'url' => 'https://www.redbubble.com/people/blushingcrow/works/28051168-maximum-call-stack-size-exceeded-programming?cat_context=all-departments&p=t-shirt',
+                'price' => 21.14,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ],
+            [
+                'slug' => 'mr-developer-t-shirt',
+                'title' => 'MR. Developer T-Shirt',
+                'image' => 'https://ih0.redbubble.net/image.266527066.3866/ra%2Cunisex_tshirt%2Cx1850%2C101010%3A01c5ca27c6%2Cfront-c%2C435%2C380%2C420%2C460-bg%2Cf8f8f8.lite-1u3.jpg',
+                'url' => 'https://www.redbubble.com/people/bkdesign/works/23433866-developer?p=t-shirt',
+                'price' => 20.56,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ]
         ]);
     }
 }

@@ -50,6 +50,42 @@ class WomenApparelSeeder extends Seeder
                 'tags' => [],
                 'vendor' => 'redbubble'
             ],
+            [
+                'slug' => 'i-are-programmer-contrast-tank-top',
+                'title' => 'I Are Programmer Contrast Tank Top',
+                'image' => 'https://ih1.redbubble.net/image.524088028.1012/ctkr%2Cx1850%2Cfront%2Cblack-c%2C410%2C440%2C420%2C460-bg%2Cf8f8f8.lite-2u1.jpg',
+                'url' => 'https://www.redbubble.com/people/thedeltafighter/works/30641012-i-are-programmer?p=contrast-tank',
+                'price' => 29.16,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ],
+            [
+                'slug' => 'dont-worry-im-from-tech-support-sweatshirt',
+                'title' => 'I\'m From Tech Support Sweatshirt',
+                'image' => 'https://ih1.redbubble.net/image.292722694.8297/lrs%2Cx1850%2Cblack_lightweight_raglan_sweatshirt%2Cfront%2Cwoman-c%2C385%2C400%2C420%2C460-bg%2Cf8f8f8.lite-1.jpg',
+                'url' => 'https://www.redbubble.com/people/offensivefun/works/24188297-im-from-tech-support?p=lightweight-raglan-sweatshirt',
+                'price' => 39.59,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ],
+            [
+                'slug' => 'retro-gamer-consoles-chiffon-top',
+                'title' => 'Retro Gamer Consoles Chiffon Top',
+                'image' => 'https://ih0.redbubble.net/image.348612621.3213/ctr%2Cx2100%2Cfront%2Cblack-c%2C500%2C500%2C420%2C460-bg%2Cf8f8f8.lite-4u4.jpg',
+                'url' => 'https://www.redbubble.com/people/jbericat/works/24023213-retro-gamer-video-game-consoles-pcs-controllers-joysticks-and-gamepads?p=chiffon-top',
+                'price' => 29.16,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ],
+            [
+                'slug' => 'github-octocat-relaxed-fit-t-shirt',
+                'title' => 'Github Octocat Relaxed Fit T-Shirt',
+                'image' => 'https://ih0.redbubble.net/image.722281402.9045/ra%2Crelaxed_fit%2Cx1950%2C101010%3A01c5ca27c6%2Cfront-c%2C439%2C430%2C420%2C460-bg%2Cf8f8f8.lite-1u1.jpg',
+                'url' => 'https://www.redbubble.com/people/cadcamcaefea/works/36259045-github-octocat-black?p=womens-relaxed-fit',
+                'price' => 29.50,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ]
         ]);
     }
 }

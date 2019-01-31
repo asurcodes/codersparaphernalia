@@ -49,6 +49,15 @@ class MugsSeeder extends Seeder
                 'price' => 15.60,
                 'tags' => [],
                 'vendor' => 'redbubble'
+            ],
+            [
+                'slug' => 'documentation-is-like-sex-travel-mug',
+                'title' => 'Documentation Is Like Sex Travel Mug',
+                'image' => 'https://ih1.redbubble.net/image.422995484.3135/mug%2Ctravel%2C420x460%2Ccenter-pad%2C420x460%2Cf8f8f8.lite-2u1.jpg',
+                'url' => 'https://www.redbubble.com/people/springforce/works/27883135-documentation-is-like-sex-funny-programming-jokes-light-color?p=travel-mug',
+                'price' => 25.00,
+                'tags' => [],
+                'vendor' => 'redbubble'
             ]
         ]);
     }

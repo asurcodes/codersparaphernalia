@@ -186,11 +186,11 @@ class StickersSeeder extends Seeder
                 'vendor' => 'redbubble'
             ],
             [
-                'slug' => 'bit-byte-pun-hobbit-sticker',
-                'title' => 'Bit byte pun hobbit sticker',
-                'image' => 'https://ih1.redbubble.net/image.474456834.0620/poster%2C420x415%2Cf8f8f8-pad%2C420x460%2Cf8f8f8.lite-1u1.jpg',
-                'url' => 'https://www.redbubble.com/people/xatral/works/29250620-bit-byte-pun-design-d?p=sticker',
-                'price' => 3.21,
+                'slug' => 'really-no-errors-sticker',
+                'title' => 'Really? No errors!? Sticker',
+                'image' => 'https://ih0.redbubble.net/image.429949453.6640/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u1.jpg',
+                'url' => 'https://www.redbubble.com/people/tamagothings/works/28066640-really-no-error?p=sticker',
+                'price' => 2.47,
                 'tags' => ['foo'],
                 'vendor' => 'redbubble'
             ]
