@@ -50,6 +50,24 @@ class MenApparelSeeder extends Seeder
                 'tags' => [],
                 'vendor' => 'redbubble'
             ],
+            [
+                'slug' => 'born-to-code-t-shirt',
+                'title' => 'Born To Code T-Shirt',
+                'image' => 'https://ih0.redbubble.net/image.572673000.3413/ra%2Cunisex_tshirt%2Cx1850%2C101010%3A01c5ca27c6%2Cfront-c%2C435%2C380%2C420%2C460-bg%2Cf8f8f8.lite-1u1.jpg',
+                'url' => 'https://www.redbubble.com/people/keeponcoding/works/31978109-born-to-code?p=t-shirt',
+                'price' => 19.90,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ],
+            [
+                'slug' => 'i-code-there-dore-i-am-t-shirt',
+                'title' => 'I Code There Fore I Am T-Shirt',
+                'image' => 'https://ih0.redbubble.net/image.480066551.6190/ra%2Cunisex_tshirt%2Cx1850%2C101010%3A01c5ca27c6%2Cfront-c%2C435%2C380%2C420%2C460-bg%2Cf8f8f8.lite-1.jpg',
+                'url' => 'https://www.redbubble.com/people/abstractee/works/29406190-i-code-therefore-i-am?p=t-shirt',
+                'price' => 19.90,
+                'tags' => [],
+                'vendor' => 'redbubble'
+            ],
         ]);
     }
 }

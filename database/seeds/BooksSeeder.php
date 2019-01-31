@@ -86,6 +86,15 @@ class BooksSeeder extends Seeder
                 'tags' => [],
                 'vendor' => 'amazon'
             ],
+            [
+                'slug' => 'the-healthy-programmer-book',
+                'title' => 'The Healthy Programmer: Get Fit, Feel Better, and Keep Coding Book',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41SolyAmg6L._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2MMGFR2',
+                'price' => 23.68,
+                'tags' => [],
+                'vendor' => 'amazon'
+            ],
         ]);
     }
 }

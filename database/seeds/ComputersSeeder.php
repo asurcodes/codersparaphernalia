@@ -86,6 +86,42 @@ class ComputersSeeder extends Seeder
                 'tags' => [],
                 'vendor' => 'amazon'
             ],
+            [
+                'slug' => 'raspberry-pi-3-b-mini-computer',
+                'title' => 'Raspberry Pi 3 Model B',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51Vt9f26ryL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2CWb4HW',
+                'price' => 34.49,
+                'tags' => [],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'intel-compute-stick-computer',
+                'title' => 'Intel Compute Stick CS325 Intel Core m3',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51Vt9f26ryL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2CUbv5I',
+                'price' => 340.99,
+                'tags' => [],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'synology-ds218plus-nas',
+                'title' => 'Synology 2 bay NAS DiskStation DS218+ (Diskless)',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41ew6gtQQZL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2MKirqr',
+                'price' => 299.99,
+                'tags' => [],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'dell-poweredge-t30-server',
+                'title' => 'Dell PowerEdge T30 Server, Xeon E3-1225 v5, 8GB RAM, 1TB HDD',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/413G+Sg-x0L._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2D0WQW7',
+                'price' => 360.89,
+                'tags' => [],
+                'vendor' => 'amazon'
+            ],
         ]);
     }
 }

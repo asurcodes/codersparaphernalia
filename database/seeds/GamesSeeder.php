@@ -85,6 +85,42 @@ class GamesSeeder extends Seeder
                 'price' => 12.56,
                 'tags' => ['steam'],
                 'vendor' => 'g2a'
+            ],
+            [
+                'slug' => 'xcom-2',
+                'title' => 'XCOM 2',
+                'image' => 'https://images.g2a.com/newlayout/323x433/1x1x0/8436837947d4/5912da0e5bafe3b24035ea35',
+                'url' => 'https://www.g2a.com/xcom-2-steam-key-global-i10000002469011',
+                'price' => 11.77,
+                'tags' => ['steam'],
+                'vendor' => 'g2a'
+            ],
+            [
+                'slug' => 'dont-starve-together',
+                'title' => 'Don\'t Starve Together',
+                'image' => 'https://images.g2a.com/newlayout/323x433/1x1x0/73734d4694f1/591211a0ae653a05e711d0bf',
+                'url' => 'https://www.g2a.com/dont-starve-together-steam-key-global-i10000001104009',
+                'price' => 10.36,
+                'tags' => ['steam'],
+                'vendor' => 'g2a'
+            ],
+            [
+                'slug' => 'the-witcher-3-wild-hunt',
+                'title' => 'The Witcher 3: Wild Hunt',
+                'image' => 'https://images.g2a.com/newlayout/323x433/1x1x0/06114476276e/59108976ae653aa55c6ac1f2',
+                'url' => 'https://www.g2a.com/the-witcher-3-wild-hunt-goty-edition-gogcom-key-global-i10000026141012',
+                'price' => 24.67,
+                'tags' => ['steam'],
+                'vendor' => 'g2a'
+            ],
+            [
+                'slug' => 'superhot',
+                'title' => 'SUPERHOT',
+                'image' => 'https://images.g2a.com/newlayout/323x433/1x1x0/2a53cdcdc7a3/590ec6e95bafe3fc7f0e1a71',
+                'url' => 'https://www.g2a.com/superhot-steam-key-global-i10000011436010',
+                'price' => 6.20,
+                'tags' => ['steam'],
+                'vendor' => 'g2a'
             ]
         ]);
     }
