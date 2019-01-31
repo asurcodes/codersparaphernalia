@@ -98,7 +98,7 @@ class ComputersSeeder extends Seeder
             [
                 'slug' => 'intel-compute-stick-computer',
                 'title' => 'Intel Compute Stick CS325 Intel Core m3',
-                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51Vt9f26ryL._AC_US436_FMwebp_QL65_.jpg',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/31I3fY7S0cL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2CUbv5I',
                 'price' => 340.99,
                 'tags' => [],
