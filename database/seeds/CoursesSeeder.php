@@ -86,6 +86,42 @@ class CoursesSeeder extends Seeder
                 'tags' => [],
                 'vendor' => 'udemy'
             ],
+            [
+                'slug' => 'complete-python-bootcamp-course',
+                'title' => 'Complete Python Bootcamp: Go from zero to hero in Python 3',
+                'image' => 'https://udemy-images.udemy.com/course/480x270/567828_67d0.jpg',
+                'url' => 'https://www.udemy.com/complete-python-bootcamp/',
+                'price' => 9.99,
+                'tags' => [],
+                'vendor' => 'udemy'
+            ],
+            [
+                'slug' => 'artificial-intelligence-az',
+                'title' => 'Artificial Intelligence A-Z™: Learn How To Build An AI',
+                'image' => 'https://udemy-images.udemy.com/course/480x270/1219332_bdd7.jpg',
+                'url' => 'https://www.udemy.com/artificial-intelligence-az/',
+                'price' => 9.99,
+                'tags' => [],
+                'vendor' => 'udemy'
+            ],
+            [
+                'slug' => 'the-complete-guide-to-angular-2-course',
+                'title' => 'Angular 7 (formerly Angular 2) - The Complete Guide',
+                'image' => 'https://udemy-images.udemy.com/course/480x270/756150_c033_2.jpg',
+                'url' => 'https://www.udemy.com/the-complete-guide-to-angular-2/',
+                'price' => 9.99,
+                'tags' => [],
+                'vendor' => 'udemy'
+            ],
+            [
+                'slug' => 'the-complete-javascript-course',
+                'title' => 'The Complete JavaScript Course 2019: Build Real Projects!',
+                'image' => 'https://udemy-images.udemy.com/course/480x270/851712_fc61_5.jpg',
+                'url' => 'https://www.udemy.com/the-complete-javascript-course/',
+                'price' => 9.99,
+                'tags' => [],
+                'vendor' => 'udemy'
+            ],
         ]);
     }
 }
