@@ -95,6 +95,33 @@ class BooksSeeder extends Seeder
                 'tags' => [],
                 'vendor' => 'amazon'
             ],
+            [
+                'slug' => 'refactoring-improving-the-design-of-existing-code-book',
+                'title' => 'Refactoring: Improving the Design of Existing Code',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51ta2ZRmPeL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2G6dzeE',
+                'price' => 31.86,
+                'tags' => [],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'introduction-to-machine-learning-with-python-book',
+                'title' => 'Introduction to Machine Learning with Python: A Guide for Data Scientists',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51ZPksI0E9L._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2sZyS9f',
+                'price' => 32.37,
+                'tags' => [],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'cracking-the-coding-interview-book',
+                'title' => 'Cracking the Coding Interview: 189 Programming Questions and Solutions',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51l5XzLln+L._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2S1r7hT',
+                'price' => 30.99,
+                'tags' => [],
+                'vendor' => 'amazon'
+            ],
         ]);
     }
 }
