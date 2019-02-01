@@ -5,10 +5,24 @@
         target="_blank"
         aria-label="Buy {{$product->title}}">
             @switch($product->vendor)
-                @case('g2a')
+                @case('amazon')
                     <amp-img src="{{$product->image}}"
-                        width="350"
-                        height="466"
+                        width="480"
+                        height="480"
+                        layout="responsive"
+                        alt="{{$product->title}}">
+                    @break
+                @case('redbubble')
+                    <amp-img src="{{$product->image}}"
+                        width="420"
+                        height="460"
+                        layout="responsive"
+                        alt="{{$product->title}}">
+                    @break
+                @case('humblebundle')
+                    <amp-img src="{{$product->image}}"
+                        width="470"
+                        height="269"
                         layout="responsive"
                         alt="{{$product->title}}">
                     @break
@@ -19,17 +33,10 @@
                         layout="responsive"
                         alt="{{$product->title}}">
                     @break
-                @case('amazon')
-                    <amp-img src="{{$product->image}}"
-                        width="480"
-                        height="480"
-                        layout="responsive"
-                        alt="{{$product->title}}">
-                    @break
                 @default
                     <amp-img src="{{$product->image}}"
                         width="420"
-                        height="460"
+                        height="420"
                         layout="responsive"
                         alt="{{$product->title}}">
                     @break
