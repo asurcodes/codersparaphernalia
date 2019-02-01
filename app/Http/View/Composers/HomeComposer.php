@@ -16,14 +16,14 @@ class HomeComposer
         });
         $topProducts = Cache::remember('top-products', 720, function () {
             $topProductsSlugs = [
-                'gopher-programming-sticker',
+                'system-76-gazelle-laptop',
                 'yellow-rubber-bath-duck',
-                'anker-wireless-vertical-mouse',
-                'programming-interviews-exposed-book',
-                'code-mandala-react-tote-bag',
-                'dell-xps-9570-laptop',
                 'monoprice-select-mini-pro-3d-printer',
-                'code-debugger-hoodie',
+                'alexa-echo-smart-speaker',
+                'wacaco-portable-expresso-machine',
+                'raspberry-pi-3-b-mini-computer',
+                'rosewill-mechanical-brown-switches-keyboard',
+                'sitting-tux-stress-toy'
             ];
             return Product::whereIn('slug', $topProductsSlugs)->get();
         });
