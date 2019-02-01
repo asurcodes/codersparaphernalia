@@ -79,10 +79,28 @@ class MiscelaneousSeeder extends Seeder
             ],
             [
                 'slug' => 'vivo-height-adjustable-standing-desk',
-                'title' => 'VIVO Height Adjustable Standing Desk ',
+                'title' => 'VIVO Height Adjustable Standing Desk',
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/5124YEYvRJL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2ToeaeZ',
                 'price' => 189.99,
+                'tags' => [],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'wooden-monitor-riser-shelf',
+                'title' => 'Wooden Monitor Riser Shelf with Storage',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41yFemZrX2L._AC_US436_QL65_.jpg',
+                'url' => 'https://amzn.to/2WBhq8x',
+                'price' => 36.99,
+                'tags' => [],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'vivo-dual-monitor-mount',
+                'title' => 'VIVO Dual Monitor Mount',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/31Zj01ONnKL._AC_US436_QL65_.jpg',
+                'url' => 'https://amzn.to/2S417Cw',
+                'price' => 29.99,
                 'tags' => [],
                 'vendor' => 'amazon'
             ]
