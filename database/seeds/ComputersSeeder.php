@@ -124,7 +124,7 @@ class ComputersSeeder extends Seeder
             ],
             [
                 'slug' => 'system-76-gazelle-laptop',
-                'title' => 'System76 Gazelle, Fully Configurable Windows Free Laptop',
+                'title' => 'System76 Gazelle, Fully Configurable Linux Laptop',
                 'image' => 'https://d1vhcvzji58n1j.cloudfront.net/assets/products/gaze13/thumb-1e9786a660.png',
                 'url' => 'https://system76.com/laptops/gazelle',
                 'price' => 869.00,
