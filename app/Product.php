@@ -30,11 +30,17 @@ class Product extends Model
      */
     public function toSearchableArray()
     {
-        $array = $this->toArray();
+        $product = $this->toArray();
+        $remove = ['id', 'category_id', 'slug', 'image', 'url', 'updated_at'];
+        $product = array_diff_key($product, array_flip($remove));
 
-        $array['category'] = $this->category;
+        $category = $this->category->toArray();
+        $remove = ['id', 'slug', 'image', 'meta_title', 'meta_description', 'long_description', 'updated_at', 'related'];
+        $category = array_diff_key($category, array_flip($remove));
 
-        return $array;
+        $product['category'] = $category;
+
+        return $product;
     }
 
     /**
