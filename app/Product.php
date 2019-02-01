@@ -24,26 +24,6 @@ class Product extends Model
     }
 
     /**
-     * Get the indexable data array for the model.
-     *
-     * @return array
-     */
-    public function toSearchableArray()
-    {
-        $product = $this->toArray();
-        $remove = ['id', 'category_id', 'slug', 'image', 'url', 'updated_at'];
-        $product = array_diff_key($product, array_flip($remove));
-
-        $category = $this->category->toArray();
-        $remove = ['id', 'slug', 'image', 'meta_title', 'meta_description', 'long_description', 'updated_at', 'related'];
-        $category = array_diff_key($category, array_flip($remove));
-
-        $product['category'] = $category;
-
-        return $product;
-    }
-
-    /**
      * Get the item list array for the products provided
      *
      * @param $products
