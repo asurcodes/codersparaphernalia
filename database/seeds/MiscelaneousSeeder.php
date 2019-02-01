@@ -103,6 +103,15 @@ class MiscelaneousSeeder extends Seeder
                 'price' => 29.99,
                 'tags' => [],
                 'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'bekant-ikea-hydraulic-standing-desk',
+                'title' => 'Bekant Ikea Hydraulic Standing Desk',
+                'image' => 'https://www.ikea.com/PIAimages/0687372_PE722066_S3.JPG',
+                'url' => 'https://www.ikea.com/us/en/catalog/products/S49022538/#/S99282086',
+                'price' => 449.00,
+                'tags' => [],
+                'vendor' => 'other'
             ]
         ]);
     }
