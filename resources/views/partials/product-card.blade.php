@@ -33,6 +33,13 @@
                         layout="responsive"
                         alt="{{$product->title}}">
                     @break
+                @case('etsy')
+                    <amp-img src="{{$product->image}}"
+                        width="340"
+                        height="270"
+                        layout="responsive"
+                        alt="{{$product->title}}">
+                    @break
                 @default
                     <amp-img src="{{$product->image}}"
                         width="420"
