@@ -6,7 +6,8 @@
     @foreach($categories as $category)
         <url>
             <loc>{{route('category.show', $category->slug)}}</loc>
-            <lastmod>{{$category->updated_at}}</lastmod>
+            <lastmod>{{$category->updated_at->format('Y-m-d')}}</lastmod>
+            <changefreq>weekly</changefreq>
         </url>
     @endforeach
 </urlset>
