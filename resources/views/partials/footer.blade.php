@@ -14,7 +14,7 @@
             <a rel="nofollow" href="https://redbubble.com">RedBubble</a>,
             <a rel="nofollow" href="https://etsy.com">Etsy</a>,
             <a rel="nofollow" href="https://udemy.com">Udemy</a> and
-            <a rel="nofollow" href="https://g2a.com">G2A</a>
+            <a rel="nofollow" href="https://humblebundle.com">HumbleBundle</a>
         </p>
     </div>
 </footer>
