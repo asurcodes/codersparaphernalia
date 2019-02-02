@@ -13,6 +13,9 @@ class ProductsController extends Controller
         $product = Cache::remember("product-$product", 720, function () use ($product) {
             return Product::where('slug', $product)->first();
         });
+        if (!$product) {
+            abort(404);
+        }
 
         return redirect($product->url);
     }

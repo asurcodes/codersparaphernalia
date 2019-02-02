@@ -13,6 +13,9 @@ class CategoriesController extends Controller
         $category = Cache::remember("category-$slug", 720, function () use ($slug) {
             return Category::where('slug', $slug)->first();
         });
+        if (!$category) {
+            abort(404);
+        }
         $relatedCategories = Cache::remember("category-$slug-related", 720, function () use ($category) {
             return Category::whereIn('slug', $category->related)->get();
         });
