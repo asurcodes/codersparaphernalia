@@ -58,7 +58,16 @@ class MiscelaneousSeeder extends Seeder
                 'price' => 25.00,
                 'tags' => ['game', 'fun', 'nsfw'],
                 'vendor' => 'amazon'
-            ]
+            ],
+            [
+                'slug' => 'brass-fidget-spinner',
+                'title' => 'Brass High Quality Fidget Spinner',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41uELO6PWPL._AC_US436_QL65_.jpg',
+                'url' => 'https://amzn.to/2G3E7NX',
+                'price' => 7.99,
+                'tags' => ['anti-ansiety', 'focus', 'health'],
+                'vendor' => 'amazon'
+            ],
         ]);
     }
 }

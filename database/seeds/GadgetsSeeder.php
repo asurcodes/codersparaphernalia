@@ -60,15 +60,6 @@ class GadgetsSeeder extends Seeder
                 'vendor' => 'amazon'
             ],
             [
-                'slug' => 'alexa-echo-smart-speaker',
-                'title' => 'Alexa Echo (2nd Generation) Smart speaker',
-                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51TFnR7AtGL._AC_US320_FMwebp_QL65_.jpg',
-                'url' => 'https://amzn.to/2TnneR5',
-                'price' => 89.99,
-                'tags' => ['iot', 'echo', 'amazon'],
-                'vendor' => 'amazon'
-            ],
-            [
                 'slug' => 'wacaco-portable-expresso-machine',
                 'title' => 'Wacaco Minipresso GR, Portable Espresso Machine',
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/410q+rnf5DL._AC_US436_FMwebp_QL65_.jpg',
@@ -88,7 +79,7 @@ class GadgetsSeeder extends Seeder
             ],
             [
                 'slug' => 'levoit-air-purifier',
-                'title' => 'LEVOIT Air Purifier with HEPA Filter, Odor, Allergies Smoke, Dust, Mold Eliminator',
+                'title' => 'LEVOIT Air Purifier with HEPA Filter, Odor, Allergies, Smoke, Dust, Mold Eliminator',
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41QTAu6KexL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2DRukIt',
                 'price' => 89.99,
@@ -102,6 +93,69 @@ class GadgetsSeeder extends Seeder
                 'url' => 'https://amzn.to/2WwsMuu',
                 'price' => 299.00,
                 'tags' => ['console', 'portable'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'bawell-platinum-alkaline-water-ionizer-machine',
+                'title' => 'Bawell Platinum Alkaline Water Ionizer Machine',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/417RJQ4LIEL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2UzmIj6',
+                'price' => 1675.00,
+                'tags' => ['health', 'purifier'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'alexa-echo-smart-speaker',
+                'title' => 'Alexa Echo (2nd Generation) Smart speaker',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51TFnR7AtGL._AC_US320_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2TnneR5',
+                'price' => 89.99,
+                'tags' => ['iot', 'echo', 'amazon', 'alexa'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'echo-spot-smart-alarm-clock',
+                'title' => 'Echo Spot Smart Alarm Clock',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41+K4pC74XL._AC_US436_QL65_.jpg',
+                'url' => 'https://amzn.to/2Gi8kI9',
+                'price' => 129.99,
+                'tags' => ['iot', 'echo', 'amazon', 'alexa', 'alarm-clock'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'ring-video-smart-doorbell-2',
+                'title' => 'Ring Video Smart Doorbell 2',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41krBhgsduL._AC_US436_QL65_.jpg',
+                'url' => 'https://amzn.to/2Gj3xGv',
+                'price' => 199.00,
+                'tags' => ['iot', 'echo', 'amazon', 'alexa'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'tp-link-hs100-kasa-smart-plug',
+                'title' => 'TP-LINK HS100 Kasa Smart Plug',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41TF9BqJTuL._AC_US320_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2HLBGkM',
+                'price' => 16.99,
+                'tags' => ['iot', 'echo', 'amazon', 'alexa'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'nest-smart-learning-thermostat',
+                'title' => 'Nest Smart Learning Thermostat',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41DmK8zsWDL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2GpdGBJ',
+                'price' => 216.99,
+                'tags' => ['iot', 'echo', 'amazon', 'alexa'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'ecovacs-deebot-n79s-robot-vacuum-cleaner',
+                'title' => 'ECOVACS DEEBOT N79S Self-Charging Robot Vacuum Cleaner',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41jfWdMjLyL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2t3mQM1',
+                'price' => 229.99,
+                'tags' => ['iot', 'echo', 'amazon', 'alexa'],
                 'vendor' => 'amazon'
             ],
         ]);
