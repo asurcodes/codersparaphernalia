@@ -87,6 +87,24 @@ class OfficeSeeder extends Seeder
                 'vendor' => 'amazon'
             ],
             [
+                'slug' => 'comfilife-gel-seat-cushion',
+                'title' => 'ComfiLife Gel Seat Cushion',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/416-e90MBCL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2G7fvDF',
+                'price' => 34.95,
+                'tags' => ['health', 'ergonomic', 'chair', 'memory-foam'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'comfilife-lumbar-support-back-pillow',
+                'title' => 'ComfiLife Lumbar Support Back Pillow',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51bovRHBysL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2t0iHIG',
+                'price' => 23.95,
+                'tags' => ['health', 'ergonomic', 'chair', 'memory-foam', 'back', 'lumbar-support'],
+                'vendor' => 'amazon'
+            ],
+            [
                 'slug' => 'dry-erase-whiteboard',
                 'title' => 'Dry Erase Whiteboard, Non-Magnetic, 36"x24"',
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/31l2vPnXARL._AC_US436_FMwebp_QL65_.jpg',
