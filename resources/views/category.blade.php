@@ -16,9 +16,9 @@
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
-        <link rel="canonical" href="{{request()->fullUrl()}}">
+        <link rel="canonical" href="{{route('category.show', $category->slug)}}">
         <meta property="og:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers">
-        <meta property="og:url" content="{{request()->fullUrl()}}">
+        <meta property="og:url" content="{{route('category.show', $category->slug)}}">
         <meta property="og:description" content="{{$category->meta_description}}">
         <meta property="og:image" content="{{url('logo.png')}}">
         <meta property="og:type" content="website">
@@ -28,7 +28,7 @@
         <meta name="twitter:description" content="{{$category->meta_description}}">
         <meta name="twitter:image" content="{{url('logo.png')}}">
         <meta name="twitter:image:src" content="{{url('logo.png')}}">
-        <meta name="twitter:url" content="{{request()->fullUrl()}}">
+        <meta name="twitter:url" content="{{route('category.show', $category->slug)}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
@@ -66,7 +66,7 @@
             "@context": "http://schema.org",
             "@type": "Organization",
             "name": "CoderParaphernalia",
-            "url": "{{request()->fullUrl()}}",
+            "url": "{{route('category.show', $category->slug)}}",
             "logo": "{{url('logo.png')}}"
         }
     </script>
