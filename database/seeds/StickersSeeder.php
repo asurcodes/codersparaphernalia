@@ -20,7 +20,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih0.redbubble.net/image.121551245.2521/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u13.jpg',
                 'url' => 'https://www.redbubble.com/people/ramiro/works/17472521-shrug-it-works-on-my-machine-programmer-excuse-design-grey-text?p=sticker',
                 'price' => 3.09,
-                'tags' => ['on-my-machine', 'meme'],
+                'tags' => ['on-my-machine', 'meme', 'donger', 'dunno'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -29,7 +29,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih1.redbubble.net/image.420697501.0033/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1.jpg',
                 'url' => 'https://www.redbubble.com/people/devtee/works/27820033-offline?p=sticker',
                 'price' => 2.47,
-                'tags' => ['foo'],
+                'tags' => ['google', 'chrome', 'minigame', 'dinosaur'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -38,7 +38,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih0.redbubble.net/image.199188173.6366/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u7.jpg',
                 'url' => 'https://www.redbubble.com/people/kentliau/works/21126366-beta-ribbon?p=sticker',
                 'price' => 2.47,
-                'tags' => ['foo'],
+                'tags' => ['develoment', 'corner', 'testing', 'beta'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -47,7 +47,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih1.redbubble.net/image.430930246.2066/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u2.jpg',
                 'url' => 'https://www.redbubble.com/people/blushingcrow/works/28092066-will-code-for-pizza-programming?p=sticker',
                 'price' => 2.47,
-                'tags' => ['foo'],
+                'tags' => ['pizza', 'work', 'program'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -65,7 +65,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih0.redbubble.net/image.572092947.2253/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u8.jpg',
                 'url' => 'https://www.redbubble.com/people/wolfcok/works/31962253-golang-go?p=sticker',
                 'price' => 3.03,
-                'tags' => ['foo'],
+                'tags' => ['golang', 'go', 'gopher', 'google'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -74,7 +74,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih1.redbubble.net/image.329536825.2075/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u1.jpg',
                 'url' => 'https://www.redbubble.com/people/caomicc/works/25272075-dont-touch-my-laptop?p=sticker',
                 'price' => 2.97,
-                'tags' => ['foo'],
+                'tags' => ['funny', 'threat', 'advise'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -83,7 +83,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih0.redbubble.net/image.499056330.8889/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1.jpg',
                 'url' => 'https://www.redbubble.com/people/xilmen/works/29938889-docker?p=sticker',
                 'price' => 2.27,
-                'tags' => ['foo'],
+                'tags' => ['docker', 'container', 'aggresive', 'dockerize'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -92,7 +92,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih1.redbubble.net/image.594516104.9462/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u5.jpg',
                 'url' => 'https://www.redbubble.com/people/hellkni9ht/works/32569462-github-logo-contributions?p=sticker',
                 'price' => 3.82,
-                'tags' => ['foo'],
+                'tags' => ['open-source', 'github', 'contributins', 'tiles'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -101,7 +101,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih0.redbubble.net/image.319527454.7974/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u5.jpg',
                 'url' => 'https://www.redbubble.com/people/djbalogh/works/24977974-digital-middle-finger?p=sticker',
                 'price' => 2.78,
-                'tags' => ['foo'],
+                'tags' => ['pointer', 'disrespect'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -110,7 +110,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih1.redbubble.net/image.12131942.2574/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1.jpg',
                 'url' => 'https://www.redbubble.com/people/pencilplus/works/9022574-code-is-my-poetry?p=sticker',
                 'price' => 2.47,
-                'tags' => ['foo'],
+                'tags' => ['poetry', 'romantic'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -119,7 +119,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih1.redbubble.net/image.338701799.4836/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u7.jpg',
                 'url' => 'https://www.redbubble.com/people/kentliau/works/25544836-fork-me-on-github-ribbon-red?p=sticker',
                 'price' => 2.47,
-                'tags' => ['foo'],
+                'tags' => ['open-source', 'github', 'contribution'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -128,7 +128,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih0.redbubble.net/image.429404716.2304/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u2.jpg',
                 'url' => 'https://www.redbubble.com/people/blushingcrow/works/28052304-im-a-developer-not-a-wizard-programming?p=sticker',
                 'price' => 2.73,
-                'tags' => ['foo'],
+                'tags' => ['developer', 'programmer', 'magic'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -137,7 +137,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih1.redbubble.net/image.422132432.9538/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u1.jpg',
                 'url' => 'https://www.redbubble.com/people/springforce/works/27859538-i-love-unicode-funny-programming-jokes-light-color?p=sticker',
                 'price' => 3.09,
-                'tags' => ['foo'],
+                'tags' => ['unicode', 'funny'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -146,16 +146,16 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih0.redbubble.net/image.467512370.2137/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1.jpg',
                 'url' => 'https://www.redbubble.com/people/nicholasolsen/works/29062137-coffee-and-code-fullsnack-developer?p=sticker',
                 'price' => 2.47,
-                'tags' => ['foo'],
+                'tags' => ['full-stack', 'frontend', 'backend', 'funny'],
                 'vendor' => 'redbubble'
             ],
             [
                 'slug' => 'code-with-me-senpai-sticker',
-                'title' => 'Code with me sempai sticker',
+                'title' => 'Code with me senpai sticker',
                 'image' => 'https://ih0.redbubble.net/image.325726123.9371/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1.jpg',
                 'url' => 'https://www.redbubble.com/people/findingnull/works/25159371-code-with-me-senpai?p=sticker',
                 'price' => 2.16,
-                'tags' => ['foo'],
+                'tags' => ['anime', 'sempai', 'meme', 'funny'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -164,7 +164,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih0.redbubble.net/image.421321768.7111/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1.jpg',
                 'url' => 'https://www.redbubble.com/people/rababau/works/27837111-programmers-duck?p=sticker',
                 'price' => 2.47,
-                'tags' => ['foo'],
+                'tags' => ['rubber-duck', 'explain'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -173,16 +173,16 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih0.redbubble.net/image.546656398.5173/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1.jpg',
                 'url' => 'https://www.redbubble.com/people/likescurving/works/31255173-we-do-test-driven-development?p=sticker',
                 'price' => 2.78,
-                'tags' => ['foo'],
+                'tags' => ['tdd', 'testing'],
                 'vendor' => 'redbubble'
             ],
             [
-                'slug' => 'product-nineteen',
+                'slug' => 'show-me-the-code-sticker',
                 'title' => 'Show me the code sticker',
                 'image' => 'https://ih0.redbubble.net/image.562567869.4397/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u1.jpg',
                 'url' => 'https://www.redbubble.com/people/barou064/works/31694397-show-me-the-code-t-shirt?p=sticker',
                 'price' => 2.47,
-                'tags' => ['foo'],
+                'tags' => ['show', 'funny'],
                 'vendor' => 'redbubble'
             ],
             [
@@ -191,7 +191,7 @@ class StickersSeeder extends Seeder
                 'image' => 'https://ih0.redbubble.net/image.429949453.6640/st%2Csmall%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u1.jpg',
                 'url' => 'https://www.redbubble.com/people/tamagothings/works/28066640-really-no-error?p=sticker',
                 'price' => 2.47,
-                'tags' => ['foo'],
+                'tags' => ['errors', 'unbelievable', 'meme', 'donger', 'funny'],
                 'vendor' => 'redbubble'
             ]
         ]);

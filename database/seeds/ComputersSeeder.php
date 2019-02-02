@@ -20,7 +20,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/51oGvT3hsOL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2Ti5dne',
                 'price' => 1379.00,
-                'tags' => [],
+                'tags' => ['high-end', 'windows'],
                 'vendor' => 'amazon'
             ],
             [
@@ -29,7 +29,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/51BNg1YayGL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2MDVdSW',
                 'price' => 799.00,
-                'tags' => [],
+                'tags' => ['middle-end', 'windows'],
                 'vendor' => 'amazon'
             ],
             [
@@ -38,7 +38,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/413Mo11zRjL._AC_US436_QL65_.jpg',
                 'url' => 'https://amzn.to/2WvkqDJ',
                 'price' => 1799.00,
-                'tags' => [],
+                'tags' => ['high-end', 'windows'],
                 'vendor' => 'amazon'
             ],
             [
@@ -47,7 +47,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41N8wIjGrwL._AC_US436_QL65_.jpg',
                 'url' => 'https://amzn.to/2S9fYLv',
                 'price' => 1099.00,
-                'tags' => [],
+                'tags' => ['middle-end', 'windows'],
                 'vendor' => 'amazon'
             ],
             [
@@ -56,7 +56,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/313UBpBtYiL._AC_US400_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2WvlK9F',
                 'price' => 759.00,
-                'tags' => [],
+                'tags' => ['middle-end', 'windows'],
                 'vendor' => 'amazon'
             ],
             [
@@ -65,7 +65,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41Wra8PrJhL._AC_US436_QL65_.jpg',
                 'url' => 'https://amzn.to/2G8gH9d',
                 'price' => 1795.00,
-                'tags' => [],
+                'tags' => ['high-end', 'windows'],
                 'vendor' => 'amazon'
             ],
             [
@@ -74,7 +74,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41krVfYQn2L._AC_US436_QL65_.jpg',
                 'url' => 'https://amzn.to/2WsqM6F',
                 'price' => 249.00,
-                'tags' => [],
+                'tags' => ['low-end', 'windows'],
                 'vendor' => 'amazon'
             ],
             [
@@ -83,7 +83,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41ARzdDxdFL._AC_US436_QL65_.jpg',
                 'url' => 'https://amzn.to/2WtiQSw',
                 'price' => 799.00,
-                'tags' => [],
+                'tags' => ['middle-end', 'windows'],
                 'vendor' => 'amazon'
             ],
             [
@@ -92,7 +92,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/51Vt9f26ryL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2CWb4HW',
                 'price' => 34.49,
-                'tags' => [],
+                'tags' => ['mini', 'diy', 'maker'],
                 'vendor' => 'amazon'
             ],
             [
@@ -101,7 +101,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/31I3fY7S0cL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2CUbv5I',
                 'price' => 340.99,
-                'tags' => [],
+                'tags' => ['mini', 'hdmi'],
                 'vendor' => 'amazon'
             ],
             [
@@ -110,7 +110,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41ew6gtQQZL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2MKirqr',
                 'price' => 299.99,
-                'tags' => [],
+                'tags' => ['nas', 'storage', 'network-attached-storage'],
                 'vendor' => 'amazon'
             ],
             [
@@ -119,7 +119,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/413G+Sg-x0L._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2D0WQW7',
                 'price' => 360.89,
-                'tags' => [],
+                'tags' => ['mini', 'server'],
                 'vendor' => 'amazon'
             ],
             [
@@ -128,7 +128,7 @@ class ComputersSeeder extends Seeder
                 'image' => 'https://d1vhcvzji58n1j.cloudfront.net/assets/products/gaze13/thumb-1e9786a660.png',
                 'url' => 'https://system76.com/laptops/gazelle',
                 'price' => 869.00,
-                'tags' => [],
+                'tags' => ['linux', 'windows-free', 'functional', 'ubuntu'],
                 'vendor' => 'amazon'
             ],
         ]);

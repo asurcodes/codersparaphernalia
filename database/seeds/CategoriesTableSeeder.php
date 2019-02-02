@@ -21,27 +21,17 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of stickers to gift programmers',
                 'meta_description' => 'If there is something programmers love is to put sticker on everything, buy a bunch of these and they will love you forever.',
                 'long_description' => 'If there is something programmers love is to put sticker on everything, our laptop, our screen or our water bottle, this is one of the best categories for it\'s incredible variety and affordability, there is no chance of failure',
-                'related' => json_encode(['posters', 'gadgets', 'games', 'mugs'])
+                'related' => json_encode(['office', 'gadgets', 'games', 'mugs'])
             ],
             [
-                'slug' => 'posters',
-                'name' => 'Posters',
+                'slug' => 'office',
+                'name' => 'Office',
                 'image' => 'https://placehold.it/600x600',
-                'description' => 'Hang them on the wall to remind you always who you are and what your passion is',
-                'meta_title' => 'The best selection of posters to gift programmers',
-                'meta_description' => 'Hang them on the wall to remind you always who you are and what your passion is',
-                'long_description' => 'Hang them on the wall to remind you always who you are and what your passion is. These are cool and colorful posters that can make a simple gift but always on display, making sure you get remembered every time they look at it.',
-                'related' => json_encode(['stickers', 'gadgets', 'games', 'mugs'])
-            ],
-            [
-                'slug' => 'periferals',
-                'name' => 'Periferals',
-                'image' => 'https://placehold.it/600x600',
-                'description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware.',
-                'meta_title' => 'The best selection of periferals to gift programmers',
-                'meta_description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware.',
-                'long_description' => 'Any professional needs the right tools to perform at it\'s fullest potential, look here for the stuff required to do so, gift some hardware.',
-                'related' => json_encode(['computers', 'gadgets', 'laptop-sleeves', 'miscelaneous'])
+                'description' => 'TODO',
+                'meta_title' => 'The best selection of products for the office to gift programmers',
+                'meta_description' => 'TODO',
+                'long_description' => 'TODO',
+                'related' => json_encode(['computers', 'gadgets', 'miscelaneous', 'mugs'])
             ],
             [
                 'slug' => 'books',
@@ -51,7 +41,17 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of books to gift programmers',
                 'meta_description' => 'Knownledge is power, books are a great way to acquire it',
                 'long_description' => 'Knownledge is power, the more you know, the more you can succeed in every single aspect of your life, books are a great way to acquire it. Remember leaders are readers.',
-                'related' => json_encode(['courses', 'bags', 'gadgets', 'miscelaneous'])
+                'related' => json_encode(['courses', 'accessories', 'gadgets', 'miscelaneous'])
+            ],
+            [
+                'slug' => 'courses',
+                'name' => 'Courses',
+                'image' => 'https://placehold.it/600x600',
+                'description' => 'Couses allow you to progress at a faster rate in your pursuit of excellence',
+                'meta_title' => 'The best selection of courses to gift programmers',
+                'meta_description' => 'Couses allow you to progress at a faster rate in your pursuit of excellence',
+                'long_description' => 'Books are really cool but self-taught knowledge takes more time and don\'t forget about practicing, couses allow you to progress at a faster rate in your pursuit of excellence.',
+                'related' => json_encode(['books', 'mugs', 'accessories', 'computers'])
             ],
             [
                 'slug' => 'gadgets',
@@ -71,17 +71,17 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of games to gift programmers',
                 'meta_description' => 'Let\'s face it, many of us still carry a kid inside, and kids love their videogames',
                 'long_description' => 'Let\'s face it, many of us still carry a kid inside, and kids love their videogames and can also be used to get rid of us for several hours. All advantages.',
-                'related' => json_encode(['periferals', 'computers', 'stickers', 'laptop-sleeves'])
+                'related' => json_encode(['periferals', 'computers', 'stickers', 'laptop-cases'])
             ],
             [
-                'slug' => 'courses',
-                'name' => 'Courses',
+                'slug' => 'periferals',
+                'name' => 'Periferals',
                 'image' => 'https://placehold.it/600x600',
-                'description' => 'Couses allow you to progress at a faster rate in your pursuit of excellence',
-                'meta_title' => 'The best selection of courses to gift programmers',
-                'meta_description' => 'Couses allow you to progress at a faster rate in your pursuit of excellence',
-                'long_description' => 'Books are really cool but self-taught knowledge takes more time and don\'t forget about practicing, couses allow you to progress at a faster rate in your pursuit of excellence.',
-                'related' => json_encode(['books', 'mugs', 'bags', 'computers'])
+                'description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware.',
+                'meta_title' => 'The best selection of periferals to gift programmers',
+                'meta_description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware.',
+                'long_description' => 'Any professional needs the right tools to perform at it\'s fullest potential, look here for the stuff required to do so, gift some hardware.',
+                'related' => json_encode(['computers', 'gadgets', 'laptop-cases', 'miscelaneous'])
             ],
             [
                 'slug' => 'miscelaneous',
@@ -92,16 +92,6 @@ class CategoriesTableSeeder extends Seeder
                 'meta_description' => 'These are the products that we love but we don\'t really have a category for',
                 'long_description' => 'These are the products that we love but we don\'t really have a category for',
                 'related' => json_encode(['stickers', 'gadgets', 'games', 'books'])
-            ],
-            [
-                'slug' => 'bags',
-                'name' => 'Bags',
-                'image' => 'https://placehold.it/600x600',
-                'description' => 'Finally a way to empty your pockets and carry all your stuff in an ordered manner',
-                'meta_title' => 'The best selection of bags to gift programmers',
-                'meta_description' => 'Finally a way to empty your pockets and carry all your stuff in an ordered manner',
-                'long_description' => 'Finally a way to empty your pockets and carry all your stuff in an ordered manner. You can carry your laptop, headphones and glasses on your back, no more looking like a Christmas tree in front of your pears!',
-                'related' => json_encode(['men-apparel', 'women-apparel', 'mugs', 'books'])
             ],
             [
                 'slug' => 'men-apparel',
@@ -121,7 +111,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of women clothes and accesories to gift programmers',
                 'meta_description' => 'Level up your game and show off with these trendy clothes',
                 'long_description' => 'Level up your game and show off with these trendy clothes',
-                'related' => json_encode(['bags', 'mugs', 'men-apparel', 'babies-apparel'])
+                'related' => json_encode(['accessories', 'mugs', 'men-apparel', 'babies-apparel'])
             ],
             [
                 'slug' => 'babies-apparel',
@@ -134,6 +124,26 @@ class CategoriesTableSeeder extends Seeder
                 'related' => json_encode(['women-apparel', 'men-apparel', 'courses', 'books'])
             ],
             [
+                'slug' => 'accessories',
+                'name' => 'Accessories',
+                'image' => 'https://placehold.it/600x600',
+                'description' => 'TODO',
+                'meta_title' => 'The best selection of accessories to gift programmers',
+                'meta_description' => 'TODO',
+                'long_description' => 'TODO',
+                'related' => json_encode(['men-apparel', 'women-apparel', 'mugs', 'books'])
+            ],
+            [
+                'slug' => 'computers',
+                'name' => 'Computers',
+                'image' => 'https://placehold.it/600x600',
+                'description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges',
+                'meta_title' => 'The best selection of computers to gift programmers',
+                'meta_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
+                'long_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
+                'related' => json_encode(['laptop-cases', 'stickers', 'periferals', 'gadgets'])
+            ],
+            [
                 'slug' => 'phone-cases',
                 'name' => 'Phone cases',
                 'image' => 'https://placehold.it/600x600',
@@ -141,11 +151,11 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of phone cases to gift programmers',
                 'meta_description' => 'Now a days our entire life is on our smartphone, protecting it is important, do it with style',
                 'long_description' => 'Now a days our entire life is on our smartphone, protecting it is important, do it with style',
-                'related' => json_encode(['laptop-sleeves', 'computers', 'gadgets', 'miscelaneous'])
+                'related' => json_encode(['laptop-cases', 'computers', 'gadgets', 'miscelaneous'])
             ],
             [
-                'slug' => 'laptop-sleeves',
-                'name' => 'Laptop sleeves',
+                'slug' => 'laptop-cases',
+                'name' => 'Laptop cases',
                 'image' => 'https://placehold.it/600x600',
                 'description' => 'Cool looking cases and skins for a programmers best friend',
                 'meta_title' => 'The best selection of laptop cases to gift programmers',
@@ -161,17 +171,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_title' => 'The best selection of mugs to gift programmers',
                 'meta_description' => 'We love our coffee, we don\'t get paid with it tho, those designs are JOKES',
                 'long_description' => 'We love our coffee, we don\'t get paid with it tho, those designs are JOKES',
-                'related' => json_encode(['stickers', 'bags', 'posters', 'phone-cases'])
-            ],
-            [
-                'slug' => 'computers',
-                'name' => 'Computers',
-                'image' => 'https://placehold.it/600x600',
-                'description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges',
-                'meta_title' => 'The best selection of computers to gift programmers',
-                'meta_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
-                'long_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
-                'related' => json_encode(['laptop-sleeves', 'stickers', 'periferals', 'gadgets'])
+                'related' => json_encode(['stickers', 'accessories', 'office', 'phone-cases'])
             ],
         ]);
     }

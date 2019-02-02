@@ -20,7 +20,7 @@ class GadgetsSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/21e-JjLsbRL._AC_US320_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2TkueON',
                 'price' => 79.95,
-                'tags' => [],
+                'tags' => ['health', 'therapy'],
                 'vendor' => 'amazon'
             ],
             [
@@ -29,16 +29,7 @@ class GadgetsSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41z-9tNZTiL._AC_AA400_.jpg',
                 'url' => 'https://amzn.to/2MIGrKM',
                 'price' => 315.00,
-                'tags' => [],
-                'vendor' => 'amazon'
-            ],
-            [
-                'slug' => 'dji-phantom-3-professional-drone',
-                'title' => 'DJI Phantom 3 Professional Quadcopter 4K Drone',
-                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41gE6Dy9e+L._AC_AA400_.jpg',
-                'url' => 'https://amzn.to/2G8GEp8',
-                'price' => 799.00,
-                'tags' => [],
+                'tags' => ['drone', 'pilot'],
                 'vendor' => 'amazon'
             ],
             [
@@ -47,7 +38,7 @@ class GadgetsSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41aWbTej2OL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2RZPLQ3',
                 'price' => 219.99,
-                'tags' => [],
+                'tags' => ['3d', 'pla'],
                 'vendor' => 'amazon'
             ],
             [
@@ -56,7 +47,7 @@ class GadgetsSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/31JOzSdXRxL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2SfOP9H',
                 'price' => 59.00,
-                'tags' => [],
+                'tags' => ['health', 'fitness', 'monitor', 'sport'],
                 'vendor' => 'amazon'
             ],
             [
@@ -65,7 +56,7 @@ class GadgetsSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41uUB-BFIvL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2Tk3kXm',
                 'price' => 149.99,
-                'tags' => [],
+                'tags' => ['e-reader', 'amazon', 'waterproof'],
                 'vendor' => 'amazon'
             ],
             [
@@ -74,7 +65,7 @@ class GadgetsSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/51TFnR7AtGL._AC_US320_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2TnneR5',
                 'price' => 89.99,
-                'tags' => [],
+                'tags' => ['iot', 'echo', 'amazon'],
                 'vendor' => 'amazon'
             ],
             [
@@ -83,7 +74,7 @@ class GadgetsSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/410q+rnf5DL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2MMPOco',
                 'price' => 49.90,
-                'tags' => [],
+                'tags' => ['coffee', 'portable'],
                 'vendor' => 'amazon'
             ],
             [
@@ -92,7 +83,7 @@ class GadgetsSeeder extends Seeder
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41R9FArsBDL._AC_US436_FMwebp_QL65_.jpg',
                 'url' => 'https://amzn.to/2WwsMuu',
                 'price' => 299.00,
-                'tags' => [],
+                'tags' => ['console', 'portable'],
                 'vendor' => 'amazon'
             ],
         ]);
