@@ -23,7 +23,7 @@ class CreateCategoriesTable extends Migration
             $table->text('meta_description');
             $table->longText('long_description');
             $table->json('related');
-            $table->timestamps()->useCurrent();;
+            $table->timestamp('updated_at')->useCurrent();
         });
     }
 
