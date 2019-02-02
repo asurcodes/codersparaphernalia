@@ -53,9 +53,6 @@
                 </div>
             </div>
             <div class="container">
-                {!!$products->links()!!}
-            </div>
-            <div class="container">
                 <h2>You may also be interested in:</h2>
                 <div class="cards">
                     @each('partials.category-card', $relatedCategories, 'category')
