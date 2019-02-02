@@ -105,24 +105,6 @@ class OfficeSeeder extends Seeder
                 'vendor' => 'amazon'
             ],
             [
-                'slug' => 'rocketbook-wave-reusable-smart-notebook',
-                'title' => 'Rocketbook Wave Reusable Smart Notebook',
-                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41yJlMdy9OL._AC_US436_FMwebp_QL65_.jpg',
-                'url' => 'https://amzn.to/2Wu4Bgm',
-                'price' => 27.00,
-                'tags' => ['environmentally-friendly', 'reusable', 'smart'],
-                'vendor' => 'amazon'
-            ],
-            [
-                'slug' => 'levoit-air-purifier',
-                'title' => 'LEVOIT Air Purifier with HEPA Filter, Odor, Allergies Smoke, Dust, Mold Eliminator',
-                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41QTAu6KexL._AC_US436_FMwebp_QL65_.jpg',
-                'url' => 'https://amzn.to/2DRukIt',
-                'price' => 89.99,
-                'tags' => ['health'],
-                'vendor' => 'amazon'
-            ],
-            [
                 'slug' => 'original-gameboy-patent-poster',
                 'title' => 'Original GameBoy Patent Poster 24"x36"',
                 'image' => 'https://i.etsystatic.com/15445335/d/il/16a9a1/1479397463/il_340x270.1479397463_4rla.jpg?version=0',

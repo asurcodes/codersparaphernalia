@@ -78,6 +78,24 @@ class GadgetsSeeder extends Seeder
                 'vendor' => 'amazon'
             ],
             [
+                'slug' => 'rocketbook-wave-reusable-smart-notebook',
+                'title' => 'Rocketbook Wave Reusable Smart Notebook',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41yJlMdy9OL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2Wu4Bgm',
+                'price' => 27.00,
+                'tags' => ['environmentally-friendly', 'reusable', 'smart'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'levoit-air-purifier',
+                'title' => 'LEVOIT Air Purifier with HEPA Filter, Odor, Allergies Smoke, Dust, Mold Eliminator',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41QTAu6KexL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2DRukIt',
+                'price' => 89.99,
+                'tags' => ['health'],
+                'vendor' => 'amazon'
+            ],
+            [
                 'slug' => 'nintendo-switch-console',
                 'title' => 'Nintendo Switch – Neon Red and Neon Blue Console',
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41R9FArsBDL._AC_US436_FMwebp_QL65_.jpg',
