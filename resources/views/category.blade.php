@@ -44,7 +44,7 @@
     <body>
         @include('partials.header', [
             'title' => 'Top ' . $category->name . ' gift ideas for programmers',
-            'description' => $category->long_description
+            'description' => $category->html_description
         ])
         <main>
             <div class="container">

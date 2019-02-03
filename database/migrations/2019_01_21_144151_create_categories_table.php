@@ -21,7 +21,7 @@ class CreateCategoriesTable extends Migration
             $table->text('description');
             $table->string('meta_title');
             $table->text('meta_description');
-            $table->longText('long_description');
+            $table->longText('html_description');
             $table->json('related');
             $table->timestamp('updated_at')->useCurrent();
         });
