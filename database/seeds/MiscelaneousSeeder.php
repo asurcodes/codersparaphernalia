@@ -24,15 +24,6 @@ class MiscelaneousSeeder extends Seeder
                 'vendor' => 'amazon'
             ],
             [
-                'slug' => 'arduino-official-starter-kit',
-                'title' => 'Arduino Starter Kit - Official',
-                'image' => 'https://images-na.ssl-images-amazon.com/images/I/414essH-EwL._AC_US436_FMwebp_QL65_.jpg',
-                'url' => 'https://amzn.to/2SgBdeg',
-                'price' => 76.50,
-                'tags' => ['electronics', 'starter-kit'],
-                'vendor' => 'amazon'
-            ],
-            [
                 'slug' => 'nerf-n-strike-elite-nerf-gun',
                 'title' => 'Nerf N-Strike Elite Strongarm Blaster Nerf Gun',
                 'image' => 'https://images-na.ssl-images-amazon.com/images/I/41S49cwqn8L._AC_US436_FMwebp_QL65_.jpg',
@@ -66,6 +57,24 @@ class MiscelaneousSeeder extends Seeder
                 'url' => 'https://amzn.to/2G3E7NX',
                 'price' => 7.99,
                 'tags' => ['anti-ansiety', 'focus', 'health'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'reusable-fastening-cable-ties',
+                'title' => 'Reusable Fastening Cable Ties',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51Seo61Gq1L._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2t1GiJ9',
+                'price' => 7.99,
+                'tags' => ['cable-management', 'order'],
+                'vendor' => 'amazon'
+            ],
+            [
+                'slug' => 'arduino-official-starter-kit',
+                'title' => 'Arduino Starter Kit - Official',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/414essH-EwL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2SgBdeg',
+                'price' => 76.50,
+                'tags' => ['electronics', 'starter-kit'],
                 'vendor' => 'amazon'
             ],
         ]);
