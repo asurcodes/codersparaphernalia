@@ -15,24 +15,6 @@ class AccessoriesSeeder extends Seeder
         $category = Category::where('slug', 'accessories')->first();
         $category->products()->createMany([
             [
-                'slug' => 'circuit-board-and-clear-acrylic-coaster',
-                'title' => 'Circuit Board and Clear Acrylic Coaster',
-                'image' => 'https://i.etsystatic.com/13260137/c/1932/1534/535/332/il/92cde3/1460931828/il_340x270.1460931828_g0a0.jpg',
-                'url' => 'https://www.etsy.com/listing/464641780/circuit-board-and-clear-acrylic-coaster',
-                'price' => 5.75,
-                'tags' => ['pcb', 'drink'],
-                'vendor' => 'etsy'
-            ],
-            [
-                'slug' => 'circuit-board-a6-notebook-recycled',
-                'title' => 'Circuit Board A6 Notebook with Recycled Paper',
-                'image' => 'https://i.etsystatic.com/13260137/c/2518/2000/211/0/il/a7fe2e/1626869277/il_340x270.1626869277_kp7u.jpg',
-                'url' => 'https://www.etsy.com/listing/633812531/circuit-board-a6-approx-notebook-with',
-                'price' => 13.46,
-                'tags' => ['electronic', 'pcb', 'recycled'],
-                'vendor' => 'etsy'
-            ],
-            [
                 'slug' => 'developer-source-code-snapback-cap',
                 'title' => 'Developer Source Code Snapback Cap',
                 'image' => 'https://i.etsystatic.com/13657562/d/il/7c437e/1598351430/il_340x270.1598351430_8q6r.jpg?version=0',
@@ -42,12 +24,30 @@ class AccessoriesSeeder extends Seeder
                 'vendor' => 'etsy'
             ],
             [
+                'slug' => 'html-web-developer-cap',
+                'title' => 'HTML Web Developer Cap',
+                'image' => 'https://i.etsystatic.com/17292434/d/il/95a742/1794335857/il_340x270.1794335857_cg3p.jpg?version=0',
+                'url' => 'https://www.etsy.com/listing/675284617/html-dad-hat-web-developer-gift',
+                'price' => 22.50,
+                'tags' => ['dad-hat', 'funny'],
+                'vendor' => 'etsy'
+            ],
+            [
                 'slug' => 'i-love-you-binary-dog-tag-necklace',
                 'title' => 'I Love You Binary Dog Tag Necklace',
                 'image' => 'https://i.etsystatic.com/6253127/c/1000/794/0/147/il/f88007/1684266552/il_340x270.1684266552_qoj5.jpg',
                 'url' => 'https://www.etsy.com/listing/185919057/i-love-you-binary-dog-tag-necklace',
                 'price' => 39.99,
                 'tags' => ['binary', 'romantic'],
+                'vendor' => 'etsy'
+            ],
+            [
+                'slug' => 'pcb-brass-necklace',
+                'title' => 'PCB Brass Necklace',
+                'image' => 'https://i.etsystatic.com/8178914/d/il/61950e/1702689338/il_340x270.1702689338_kq7m.jpg?version=0',
+                'url' => 'https://www.etsy.com/listing/572034769/creative-necklace-geeky-pendant-real',
+                'price' => 17.00,
+                'tags' => ['pcb', 'brass'],
                 'vendor' => 'etsy'
             ],
             [

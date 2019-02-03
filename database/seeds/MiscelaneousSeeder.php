@@ -76,7 +76,7 @@ class MiscelaneousSeeder extends Seeder
                 'price' => 76.50,
                 'tags' => ['electronics', 'starter-kit'],
                 'vendor' => 'amazon'
-            ],
+            ]
         ]);
     }
 }
