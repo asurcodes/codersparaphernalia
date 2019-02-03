@@ -15,6 +15,42 @@ class AccessoriesSeeder extends Seeder
         $category = Category::where('slug', 'accessories')->first();
         $category->products()->createMany([
             [
+                'slug' => 'circuit-board-and-clear-acrylic-coaster',
+                'title' => 'Circuit Board and Clear Acrylic Coaster',
+                'image' => 'https://i.etsystatic.com/13260137/c/1932/1534/535/332/il/92cde3/1460931828/il_340x270.1460931828_g0a0.jpg',
+                'url' => 'https://www.etsy.com/listing/464641780/circuit-board-and-clear-acrylic-coaster',
+                'price' => 5.75,
+                'tags' => ['pcb', 'drink'],
+                'vendor' => 'etsy'
+            ],
+            [
+                'slug' => 'circuit-board-a6-notebook-recycled',
+                'title' => 'Circuit Board A6 Notebook with Recycled Paper',
+                'image' => 'https://i.etsystatic.com/13260137/c/2518/2000/211/0/il/a7fe2e/1626869277/il_340x270.1626869277_kp7u.jpg',
+                'url' => 'https://www.etsy.com/listing/633812531/circuit-board-a6-approx-notebook-with',
+                'price' => 13.46,
+                'tags' => ['electronic', 'pcb', 'recycled'],
+                'vendor' => 'etsy'
+            ],
+            [
+                'slug' => 'developer-source-code-snapback-cap',
+                'title' => 'Developer Source Code Snapback Cap',
+                'image' => 'https://i.etsystatic.com/13657562/d/il/7c437e/1598351430/il_340x270.1598351430_8q6r.jpg?version=0',
+                'url' => 'https://www.etsy.com/listing/624777668/front-end-developer-html-source-code',
+                'price' => 34.95,
+                'tags' => ['modern', 'swag'],
+                'vendor' => 'etsy'
+            ],
+            [
+                'slug' => 'i-love-you-binary-dog-tag-necklace',
+                'title' => 'I Love You Binary Dog Tag Necklace',
+                'image' => 'https://i.etsystatic.com/6253127/c/1000/794/0/147/il/f88007/1684266552/il_340x270.1684266552_qoj5.jpg',
+                'url' => 'https://www.etsy.com/listing/185919057/i-love-you-binary-dog-tag-necklace',
+                'price' => 39.99,
+                'tags' => ['binary', 'romantic'],
+                'vendor' => 'etsy'
+            ],
+            [
                 'slug' => 'give-me-a-br-bag',
                 'title' => 'Give Me A <BR> Bag',
                 'image' => 'https://ih0.redbubble.net/image.218853753.1653/drawstring_bag%2C420x460-pad%2C420x460%2Cf8f8f8.lite-1u5.jpg',
