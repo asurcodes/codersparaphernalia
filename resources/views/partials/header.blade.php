@@ -6,7 +6,7 @@
             <input type="submit" value="SEARCH">
         </form>
         @if(isset($description))
-            <p>{!!$description!!}</p>
+            {!!$description!!}
         @endif
     </div>
 </header>
