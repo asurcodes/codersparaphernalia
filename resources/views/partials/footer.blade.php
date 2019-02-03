@@ -9,6 +9,9 @@
     <div class="container">
         <p>Made with &#10084; and <b>no design skills</b></p>
         <p>
+            <b>Disclaimer:</b> We use some referral links to support the site, but we care more about quality of products than monetization so if you have a suggestion or any outdated product, hit us up.
+        </p>
+        <p>
             Image rights belongs to
             <a rel="nofollow" href="https://amazon.com">Amazon</a>,
             <a rel="nofollow" href="https://redbubble.com">RedBubble</a>,
