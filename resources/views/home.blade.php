@@ -55,7 +55,7 @@
             <div class="container">
                 <h2>Our gift selection any coder will love</h2>
                 <p>
-                    Is your kid the youngest Facebook programmer being 2 years old? Don't worry, we have stylish bodysuits. Got a new geeky partner and want to surprise him/her with some cool underwear? We got you covered. You have a sticker fetish? Welcome home.
+                    Is your kid the youngest Facebook programmer being 2 years old? Don't worry, we have stylish bodysuits. Got a geeky boyfriend/girlfriend and want to surprise him/her with a nice present? We got you covered. You have a sticker fetish? Welcome home, my friend.
                 </p>
             </div>
             <div class="container">
