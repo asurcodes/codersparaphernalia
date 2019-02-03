@@ -34,6 +34,7 @@ a {
 }
 .container {
     margin: 1rem 2rem;
+    line-height: 1.75rem;
 }
 .container--fluid {
     margin: 1rem 0;
@@ -42,6 +43,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    line-height: 1.5rem;
 }
 .card {
     flex: 0 1 99%;
