@@ -10,22 +10,22 @@
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
         <link rel="dns-prefetch" href="//www.google-analytics.com">
 
-        <title>CodersParaphernalia - Gift ideas for programmers and alike 🗿</title>
+        <title>CodersParaphernalia - Gift ideas for programmers and alike!</title>
 
-        <meta name="description" content="Welcome to CodersParphernalia, the place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made for devs by devs">
+        <meta name="description" content="The place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made for devs by devs">
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
         <link rel="canonical" href="{{route('home')}}">
-        <meta property="og:title" content="CodersParaphernalia - Present ideas for programmers and alike 🗿">
+        <meta property="og:title" content="CodersParaphernalia - Present ideas for programmers and alike!">
         <meta property="og:url" content="{{route('home')}}">
-        <meta property="og:description" content="Welcome to CodersParphernalia, the place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made for devs by devs">
+        <meta property="og:description" content="The place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made for devs by devs">
         <meta property="og:image" content="{{url('logo.png')}}">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="CodersParaphernalia - Present ideas for programmers and alike 🗿">
-        <meta name="twitter:description" content="Welcome to CodersParphernalia, the place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made for devs by devs">
+        <meta name="twitter:title" content="CodersParaphernalia - Present ideas for programmers and alike!">
+        <meta name="twitter:description" content="The place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made for devs by devs">
         <meta name="twitter:image" content="{{url('logo.png')}}">
         <meta name="twitter:image:src" content="{{url('logo.png')}}">
         <meta name="twitter:url" content="{{route('home')}}">
