@@ -44,14 +44,13 @@
     <body>
         @include('partials.header', [
             'title' => 'Programmers gifts online store',
-            'description' => 'Welcome to CodersParphernalia, the place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made <b>for devs by devs</b>.'
+            'description' => '
+                <p>
+                Welcome to CodersParphernalia, the place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made <b>for devs by devs</b>.
+                </p>
+                '
             ])
         <main>
-            <div class="container">
-                <p>
-                    <b>Pro Tip:</b> If you are looking a present but you are not really sure what that person really does (this is really common, you are not alone) search for <b>all</b> in the serach bar, it will display gifts that are valid for the 99.8% of computer geeks out there. You're welcome! ;)
-                </p>
-            </div>
 
             <div class="container">
                 <h2>Our gift selection any coder will love</h2>
