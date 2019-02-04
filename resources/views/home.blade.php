@@ -79,10 +79,10 @@
             <div class="container">
                 <h2>What is CodersParaphernalia?</h2>
                 <p>
-                    We are a simple site with a simple goal: improve presents for coders all over the world. We are programmers ourselves and we have experienced tryhard gifts people make us, although we appreciate the effort they are usually not what we really want, so we curated a list of products from all over the internet that we love and others would too.
+                    We are a simple site with a simple goal: improve presents for coders all over the world. We are programmers ourselves and we have experienced tryhard gifts people make us, although we appreciate the effort they are usually not what we really want, so we curated a list of products from all over the internet that we love and other colleagues would too.
                 </p>
                 <p>
-                    If you are got lost browsing Etsy or got frustrated looking for something cool in RedBubble don't worry, we have made all the scouting job for you. Anything here is a warrantied like for you or anyone you wish well to.
+                    If you got lost browsing for a christmas present on Etsy or frustrated looking for a cool design in RedBubble don't worry, we have made all the scouting job for you. Anything here is a warrantied like for you or anyone you wish well to.
                 </p>
             </div>
         </main>
