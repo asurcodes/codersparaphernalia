@@ -2,7 +2,7 @@
 git pull origin master
 
 # Install composer without dev dependencies
-composer install --no-dev
+php /root/composer.phar install --no-dev
 
 # Install node dependencies
 npm run prod
