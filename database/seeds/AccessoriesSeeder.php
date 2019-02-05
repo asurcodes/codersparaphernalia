@@ -15,40 +15,40 @@ class AccessoriesSeeder extends Seeder
         $category = Category::where('slug', 'accessories')->first();
         $category->products()->createMany([
             [
-                'slug' => 'developer-source-code-snapback-cap',
-                'title' => 'Developer Source Code Snapback Cap',
-                'image' => 'https://i.etsystatic.com/13657562/d/il/7c437e/1598351430/il_340x270.1598351430_8q6r.jpg?version=0',
-                'url' => 'https://www.etsy.com/listing/624777668/front-end-developer-html-source-code',
-                'price' => 34.95,
-                'tags' => ['modern', 'swag'],
-                'vendor' => 'etsy'
+                'slug' => 'vaschy-classic-laptop-backpack',
+                'title' => 'Vaschy Unisex Classic 14Inch Laptop Backpack',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41iIspM9DyL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2tfog6x',
+                'price' => 28.99,
+                'tags' => ['schoolbag', 'student'],
+                'vendor' => 'amazon'
             ],
             [
-                'slug' => 'html-web-developer-cap',
-                'title' => 'HTML Web Developer Cap',
-                'image' => 'https://i.etsystatic.com/17292434/d/il/95a742/1794335857/il_340x270.1794335857_cg3p.jpg?version=0',
-                'url' => 'https://www.etsy.com/listing/675284617/html-dad-hat-web-developer-gift',
-                'price' => 22.50,
-                'tags' => ['dad-hat', 'funny'],
-                'vendor' => 'etsy'
+                'slug' => 'thule-paramount-daypack',
+                'title' => 'Thule Paramount 15Inch Laptop Daypack',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/41K0UHD88fL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2G8JM5n',
+                'price' => 129.99,
+                'tags' => ['backpack', 'nylon'],
+                'vendor' => 'amazon'
             ],
             [
-                'slug' => 'i-love-you-binary-dog-tag-necklace',
-                'title' => 'I Love You Binary Dog Tag Necklace',
-                'image' => 'https://i.etsystatic.com/6253127/c/1000/794/0/147/il/f88007/1684266552/il_340x270.1684266552_qoj5.jpg',
-                'url' => 'https://www.etsy.com/listing/185919057/i-love-you-binary-dog-tag-necklace',
-                'price' => 39.99,
-                'tags' => ['binary', 'romantic'],
-                'vendor' => 'etsy'
+                'slug' => 'incase-icon-pack',
+                'title' => 'Incase 15Inch Icon Pack',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/31Mi7D4+WcL._AC_US218_.jpg',
+                'url' => 'https://amzn.to/2G8JT0N',
+                'price' => 199.95,
+                'tags' => ['backpack', 'nylon'],
+                'vendor' => 'amazon'
             ],
             [
-                'slug' => 'pcb-brass-necklace',
-                'title' => 'PCB Brass Necklace',
-                'image' => 'https://i.etsystatic.com/8178914/d/il/61950e/1702689338/il_340x270.1702689338_kq7m.jpg?version=0',
-                'url' => 'https://www.etsy.com/listing/572034769/creative-necklace-geeky-pendant-real',
-                'price' => 17.00,
-                'tags' => ['pcb', 'brass'],
-                'vendor' => 'etsy'
+                'slug' => 'the-north-face-borealis-backpack',
+                'title' => 'The North Face Borealis 15Inch Laptop Backpack',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/51ZZObFKWSL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2GavtNy',
+                'price' => 88.95,
+                'tags' => ['backpack', 'nylon'],
+                'vendor' => 'amazon'
             ],
             [
                 'slug' => 'give-me-a-br-bag',
@@ -157,6 +157,42 @@ class AccessoriesSeeder extends Seeder
                 'price' => 12.00,
                 'tags' => ['passion'],
                 'vendor' => 'redbubble'
+            ],
+            [
+                'slug' => 'developer-source-code-snapback-cap',
+                'title' => 'Developer Source Code Snapback Cap',
+                'image' => 'https://i.etsystatic.com/13657562/d/il/7c437e/1598351430/il_340x270.1598351430_8q6r.jpg?version=0',
+                'url' => 'https://www.etsy.com/listing/624777668/front-end-developer-html-source-code',
+                'price' => 34.95,
+                'tags' => ['modern', 'swag'],
+                'vendor' => 'etsy'
+            ],
+            [
+                'slug' => 'html-web-developer-cap',
+                'title' => 'HTML Web Developer Cap',
+                'image' => 'https://i.etsystatic.com/17292434/d/il/95a742/1794335857/il_340x270.1794335857_cg3p.jpg?version=0',
+                'url' => 'https://www.etsy.com/listing/675284617/html-dad-hat-web-developer-gift',
+                'price' => 22.50,
+                'tags' => ['dad-hat', 'funny'],
+                'vendor' => 'etsy'
+            ],
+            [
+                'slug' => 'i-love-you-binary-dog-tag-necklace',
+                'title' => 'I Love You Binary Dog Tag Necklace',
+                'image' => 'https://i.etsystatic.com/6253127/c/1000/794/0/147/il/f88007/1684266552/il_340x270.1684266552_qoj5.jpg',
+                'url' => 'https://www.etsy.com/listing/185919057/i-love-you-binary-dog-tag-necklace',
+                'price' => 39.99,
+                'tags' => ['binary', 'romantic'],
+                'vendor' => 'etsy'
+            ],
+            [
+                'slug' => 'pcb-brass-necklace',
+                'title' => 'PCB Brass Necklace',
+                'image' => 'https://i.etsystatic.com/8178914/d/il/61950e/1702689338/il_340x270.1702689338_kq7m.jpg?version=0',
+                'url' => 'https://www.etsy.com/listing/572034769/creative-necklace-geeky-pendant-real',
+                'price' => 17.00,
+                'tags' => ['pcb', 'brass'],
+                'vendor' => 'etsy'
             ],
         ]);
     }

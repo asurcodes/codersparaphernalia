@@ -158,6 +158,15 @@ class OfficeSeeder extends Seeder
                 'tags' => ['decoration', 'sing'],
                 'vendor' => 'etsy'
             ],
+            [
+                'slug' => 'brainwavz-truss-headphone-hanger',
+                'title' => 'BRAINWAVZ Truss - Under Desk Dual Headphone Hanger',
+                'image' => 'https://images-na.ssl-images-amazon.com/images/I/412kIGeanDL._AC_US436_FMwebp_QL65_.jpg',
+                'url' => 'https://amzn.to/2TC2N3e',
+                'price' => 15.99,
+                'tags' => ['headphones', 'organization'],
+                'vendor' => 'amazon'
+            ],
         ]);
     }
 }
