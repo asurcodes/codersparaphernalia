@@ -16,7 +16,15 @@ class HomeComposer
         });
         $topProducts = Cache::remember('top-products', 720, function () {
             $topProductsSlugs = [
+                'quartet-tempered-glass-white-board',
+                'nintendo-switch-console',
+                'new-kindle-paperwhite-e-book',
+                'rocketbook-wave-reusable-smart-notebook',
+                'arduino-official-starter-kit',
                 'system-76-gazelle-laptop',
+                'nerf-n-strike-elite-nerf-gun',
+                'cards-against-humanity-game',
+                'thule-paramount-daypack',
                 'yellow-rubber-bath-duck',
                 'monoprice-select-mini-pro-3d-printer',
                 'alexa-echo-smart-speaker',
