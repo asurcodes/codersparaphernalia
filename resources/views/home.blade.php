@@ -48,6 +48,9 @@
                 <p>
                 Welcome to CodersParphernalia, the place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made <b>for devs by devs</b>.
                 </p>
+                <p>
+                Wether the thing you are looking for is for a aspiring computer engineer, an student or a stablished experienced professional in this site you are guaranteed to discover the best products for that individual.
+                </p>
                 '
             ])
         <main>
@@ -65,9 +68,9 @@
             </div>
 
             <div class="container">
-                <h2>Top 8 gift ideas for developers!</h2>
+                <h2>Top 16 gift ideas for computer programmers!</h2>
                 <p>
-                    This are our top picks for computer geeks, all our products are cool but these have something special.
+                    This are our top picks for computer geeks, all our products are cool but these are the definetly the best. These are also <b>generic</b> so you don't need to know anything about what the person is exactly working on (don't worry, this is really common), the perfect selection for non computer savvies.
                 </p>
             </div>
             <div class="container">
@@ -83,6 +86,9 @@
                 </p>
                 <p>
                     If you got lost browsing for a christmas present on Etsy or frustrated looking for a cool design in RedBubble don't worry, we have made all the scouting job for you. Anything here is a warrantied like for you or anyone you wish well to.
+                </p>
+                <p>
+                    <b>Disclaimer:</b> We use some referral links to support the site, but we care more about quality of products than monetization so if you have a suggestion or have seen any outdated product, hit us up.
                 </p>
             </div>
         </main>
