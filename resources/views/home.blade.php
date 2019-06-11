@@ -56,18 +56,6 @@
         <main>
 
             <div class="container">
-                <h2>Our gift selection any coder will love</h2>
-                <p>
-                    Is your kid the youngest Facebook programmer being 2 years old? Don't worry, we have stylish bodysuits. Got a geeky boyfriend/girlfriend and want to surprise him/her with a nice present? We got you covered. You have a sticker fetish? Welcome home, my friend.
-                </p>
-            </div>
-            <div class="container">
-                <div class="cards">
-                    @each('partials.category-card', $categories, 'category')
-                </div>
-            </div>
-
-            <div class="container">
                 <h2>Top 16 gift ideas for computer programmers!</h2>
                 <p>
                     This are our top picks for computer geeks, all our products are cool but these are the definetly the best. These are also <b>generic</b> so you don't need to know anything about what the person is exactly working on (don't worry, this is really common), the perfect selection for non computer savvies.
@@ -76,6 +64,18 @@
             <div class="container">
                 <div class="cards">
                     @each('partials.product-card', $topProducts, 'product')
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>Our gift selection any coder will love</h2>
+                <p>
+                    Is your kid the youngest Facebook programmer being 2 years old? Don't worry, we have stylish bodysuits. Got a geeky boyfriend/girlfriend and want to surprise him/her with a nice present? We got you covered. You have a sticker fetish? Welcome home, my friend.
+                </p>
+            </div>
+            <div class="container">
+                <div class="cards">
+                    @each('partials.category-card', $categories, 'category')
                 </div>
             </div>
 
