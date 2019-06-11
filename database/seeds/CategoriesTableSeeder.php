@@ -93,7 +93,7 @@ class CategoriesTableSeeder extends Seeder
                     We love to tinker around and discover new useful and cool items (well, not always that useful) that make our lifes more fun and enjoyable. This category embodies the original motto of this website, and as so we have a special care with items end up here, you won\'t be disappointed.
                 </p>
                 ',
-                'related' => json_encode(['periferals', 'computers', 'games', 'stickers'])
+                'related' => json_encode(['peripherals', 'computers', 'games', 'stickers'])
             ],
             [
                 'slug' => 'games',
@@ -113,15 +113,15 @@ class CategoriesTableSeeder extends Seeder
                     We use <b>HumbleBundle</b> as a vendor, they are a fair prices and developer friendly platform, you can also choose the percentage you donate to charity, developers, HumbleBundle and this very site at checkout.
                 </p>
                 ',
-                'related' => json_encode(['periferals', 'computers', 'stickers', 'laptop-cases'])
+                'related' => json_encode(['peripherals', 'computers', 'stickers', 'laptop-cases'])
             ],
             [
-                'slug' => 'periferals',
-                'name' => 'Periferals',
+                'slug' => 'peripherals',
+                'name' => 'Peripherals',
                 'image' => 'https://placehold.it/600x600',
                 'description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware.',
-                'meta_title' => 'The best selection of periferals to gift programmers',
-                'meta_description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware.',
+                'meta_title' => 'The best selection of peripherals to gift programmers',
+                'meta_description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware and periferals.',
                 'html_description' => '
                 <p>
                     Any professional needs the right tools to perform at it\'s fullest potential, look here for the stuff required to do so, gift some hardware.

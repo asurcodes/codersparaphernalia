@@ -12,7 +12,7 @@ class PeriferalsSeeder extends Seeder
      */
     public function run()
     {
-        $category = Category::where('slug', 'periferals')->first();
+        $category = Category::where('slug', 'peripherals')->first();
         $category->products()->createMany([
             [
                 'slug' => 'hp-23-fhd-ips-monitor',
