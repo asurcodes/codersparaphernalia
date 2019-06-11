@@ -10,21 +10,21 @@
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
         <link rel="dns-prefetch" href="//www.google-analytics.com">
 
-        <title>CodersParaphernalia - Search results for {{$query}}</title>
+        <title>CodersParaphernalia - Search results for: {{$query}}</title>
 
         <meta name="description" content="The best selection of our products found by {{$query}}">
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
         <link rel="canonical" href="{{request()->fullUrl()}}}">
-        <meta property="og:title" content="CodersParaphernalia - Search results for {{$query}}">
+        <meta property="og:title" content="CodersParaphernalia - Search results for: {{$query}}">
         <meta property="og:url" content="{{request()->fullUrl()}}">
         <meta property="og:description" content="The best selection of our products found by {{$query}}">
         <meta property="og:image" content="{{url('logo.png')}}">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="CodersParaphernalia - Search results for {{$query}}">
+        <meta name="twitter:title" content="CodersParaphernalia - Search results for: {{$query}}">
         <meta name="twitter:description" content="The best selection of our products found by {{$query}}">
         <meta name="twitter:image" content="{{url('logo.png')}}">
         <meta name="twitter:image:src" content="{{url('logo.png')}}">

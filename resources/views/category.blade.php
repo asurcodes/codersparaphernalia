@@ -10,21 +10,21 @@
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
         <link rel="dns-prefetch" href="//www.google-analytics.com">
 
-        <title>CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers</title>
+        <title>CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers! 🤓</title>
 
         <meta name="description" content="{{$category->meta_description}}">
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
         <link rel="canonical" href="{{route('category.show', $category->slug)}}">
-        <meta property="og:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers">
+        <meta property="og:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers! 🤓">
         <meta property="og:url" content="{{route('category.show', $category->slug)}}">
         <meta property="og:description" content="{{$category->meta_description}}">
         <meta property="og:image" content="{{url('logo.png')}}">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers">
+        <meta name="twitter:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers! 🤓">
         <meta name="twitter:description" content="{{$category->meta_description}}">
         <meta name="twitter:image" content="{{url('logo.png')}}">
         <meta name="twitter:image:src" content="{{url('logo.png')}}">
