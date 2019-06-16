@@ -44,6 +44,11 @@
     </head>
 
     <body>
+        <amp-install-serviceworker
+            src="https://codersparaphernalia.com/serviceworker.js"
+            data-iframe-src="https://codersparaphernalia.com/install-serviceworker.html"
+            layout="nodisplay">
+        </amp-install-serviceworker>
         @include('partials.header', [
             'title' => 'Top ' . $category->name . ' gift ideas for programmers',
             'description' => $category->html_description
