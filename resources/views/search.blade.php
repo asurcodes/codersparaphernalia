@@ -3,12 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#c21e41">
         <link rel="shortcut icon" href="{{url('favicon.ico')}}">
         <link rel="manifest" href="{{url('manifest.json')}}">
+        <link rel="dns-prefetch" href="//www.google-analytics.com">
+        <link rel="dns-prefetch" href="//cdn.ampproject.org">
 
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
-        <link rel="dns-prefetch" href="//www.google-analytics.com">
 
         <title>CodersParaphernalia - Search results for: {{$query}}</title>
 
@@ -20,14 +22,14 @@
         <meta property="og:title" content="CodersParaphernalia - Search results for: {{$query}}">
         <meta property="og:url" content="{{request()->fullUrl()}}">
         <meta property="og:description" content="The best selection of our products found by {{$query}}">
-        <meta property="og:image" content="{{url('logo.png')}}">
+        <meta property="og:image" content="{{url('images/logo-512x512.png')}}">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="CodersParaphernalia - Search results for: {{$query}}">
         <meta name="twitter:description" content="The best selection of our products found by {{$query}}">
-        <meta name="twitter:image" content="{{url('logo.png')}}">
-        <meta name="twitter:image:src" content="{{url('logo.png')}}">
+        <meta name="twitter:image" content="{{url('images/logo-512x512.png')}}">
+        <meta name="twitter:image:src" content="{{url('images/logo-512x512.png')}}">
         <meta name="twitter:url" content="{{request()->fullUrl()}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -63,7 +65,7 @@
             "@type": "Organization",
             "name": "CoderParaphernalia",
             "url": "{{route('home')}}",
-            "logo": "{{url('logo.png')}}"
+            "logo": "{{url('images/logo-512x512.png')}}"
         }
     </script>
     <script type="application/ld+json">

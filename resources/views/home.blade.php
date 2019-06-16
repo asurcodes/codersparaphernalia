@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#c21e41">
         <link rel="shortcut icon" href="{{url('favicon.ico')}}">
         <link rel="manifest" href="{{url('manifest.json')}}">
 
@@ -20,20 +21,21 @@
         <meta property="og:title" content="CodersParaphernalia - Gift ideas for programmers and alike! 🤓">
         <meta property="og:url" content="{{route('home')}}">
         <meta property="og:description" content="The place where you can find anything a programmers heart can desire. We offer a curated list of the best gifts ideas made for devs by devs">
-        <meta property="og:image" content="{{url('logo.png')}}">
+        <meta property="og:image" content="{{url('images/logo-512x512.png')}}">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="CodersParaphernalia - Gift ideas for programmers and alike! 🤓">
         <meta name="twitter:description" content="The place where you can find anything a programmers heart can desire. We offer a curated list of the best gifts ideas made for devs by devs">
-        <meta name="twitter:image" content="{{url('logo.png')}}">
-        <meta name="twitter:image:src" content="{{url('logo.png')}}">
+        <meta name="twitter:image" content="{{url('images/logo-512x512.png')}}">
+        <meta name="twitter:image:src" content="{{url('images/logo-512x512.png')}}">
         <meta name="twitter:url" content="{{route('home')}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
         <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
         <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+        <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 
         <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
         <style amp-custom>
@@ -43,7 +45,7 @@
 
     <body>
         @include('partials.header', [
-            'title' => 'Programmers gifts online store',
+            'title' => 'The programmers favourite gifts online store',
             'description' => '
                 <p>
                 Welcome to CodersParphernalia, the place where you can find anything a programmers heart can desire. Here you have a curated list of the best gifts with style and character made <b>for devs by devs</b>.
@@ -113,7 +115,7 @@
             "@type": "Organization",
             "name": "CoderParaphernalia",
             "url": "{{route('home')}}",
-            "logo": "{{url('logo.png')}}"
+            "logo": "{{url('images/logo-512x512.png')}}"
         }
     </script>
     <script type="application/ld+json">
