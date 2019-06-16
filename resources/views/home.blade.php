@@ -6,10 +6,11 @@
         <meta name="theme-color" content="#c21e41">
         <link rel="shortcut icon" href="{{url('favicon.ico')}}">
         <link rel="manifest" href="{{url('manifest.json')}}">
-
+        <link rel="dns-prefetch" href="//cdn.ampproject.org">
+        <link rel="dns-prefetch" href="//www.google-analytics.com">
+        <link rel="dns-prefetch" href="//stats.g.doubleclick.net">
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
-        <link rel="dns-prefetch" href="//www.google-analytics.com">
 
         <title>CodersParaphernalia - Gift ideas for programmers and alike! 🤓</title>
 
