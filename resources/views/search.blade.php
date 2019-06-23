@@ -35,6 +35,7 @@
         <meta name="twitter:image:src" content="{{url('images/splash-og.png')}}">
         <meta name="twitter:image:alt" content="CodersParaphernalia">
         <meta name="twitter:url" content="{{request()->fullUrl()}}">
+        <link rel="apple-touch-icon" href="{{url('images/touch/chrome-touch-icon-192x192.png')}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
