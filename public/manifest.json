@@ -22,7 +22,7 @@
     "type": "image/png",
     "sizes": "1024x1024"
   }],
-  "start_url": "?utm_source=homescreen",
+  "start_url": "/",
   "background_color": "#fff",
   "theme_color": "#c21e41",
   "display": "standalone",
