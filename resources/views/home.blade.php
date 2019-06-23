@@ -12,24 +12,27 @@
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
 
-        <title>CodersParaphernalia - Gift ideas for programmers and alike! 🤓</title>
+        <title>CodersParaphernalia | Gift ideas for programmers and alike! 🤓</title>
 
         <meta name="description" content="The place where you can find anything a programmers heart can desire. We offer a curated list of the best gifts ideas made for devs by devs">
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
         <link rel="canonical" href="{{route('home')}}">
-        <meta property="og:title" content="CodersParaphernalia - Gift ideas for programmers and alike! 🤓">
+        <meta property="og:title" content="CodersParaphernalia | Gift ideas for programmers and alike! 🤓">
         <meta property="og:url" content="{{route('home')}}">
         <meta property="og:description" content="The place where you can find anything a programmers heart can desire. We offer a curated list of the best gifts ideas made for devs by devs">
-        <meta property="og:image" content="{{url('images/logo-512x512.png')}}">
+        <meta property="og:image" content="{{url('images/splash-og.png')}}">
+        <meta property="og:image:width" content="1650">
+        <meta property="og:image:height" content="1000">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="CodersParaphernalia - Gift ideas for programmers and alike! 🤓">
+        <meta name="twitter:title" content="CodersParaphernalia | Gift ideas for programmers and alike! 🤓">
         <meta name="twitter:description" content="The place where you can find anything a programmers heart can desire. We offer a curated list of the best gifts ideas made for devs by devs">
-        <meta name="twitter:image" content="{{url('images/logo-512x512.png')}}">
-        <meta name="twitter:image:src" content="{{url('images/logo-512x512.png')}}">
+        <meta name="twitter:image" content="{{url('images/splash-og.png')}}">
+        <meta name="twitter:image:src" content="{{url('images/splash-og.png')}}">
+        <meta name="twitter:image:alt" content="CodersParaphernalia">
         <meta name="twitter:url" content="{{route('home')}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -46,8 +49,8 @@
 
     <body>
         <amp-install-serviceworker
-            src="https://codersparaphernalia.com/serviceworker.js"
-            data-iframe-src="https://codersparaphernalia.com/install-serviceworker.html"
+            src="{{ url('serviceworker.js') }}"
+            data-iframe-src="{{ url('install-serviceworker.html') }}"
             layout="nodisplay">
         </amp-install-serviceworker>
         @include('partials.header', [
@@ -119,7 +122,7 @@
         {
             "@context": "http://schema.org",
             "@type": "Organization",
-            "name": "CoderParaphernalia",
+            "name": "CodersParaphernalia",
             "url": "{{route('home')}}",
             "logo": "{{url('images/logo-512x512.png')}}"
         }

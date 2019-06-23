@@ -12,24 +12,27 @@
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">
 
-        <title>CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers! 🤓</title>
+        <title>CodersParaphernalia | Top {{strtolower($category->name)}} gift ideas for programmers! 🤓</title>
 
         <meta name="description" content="{{$category->meta_description}}">
         <meta name="language" content="en">
         <meta name="robots" content="index,follow">
         <meta http-equiv="content-language" content="en">
         <link rel="canonical" href="{{route('category.show', $category->slug)}}">
-        <meta property="og:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers! 🤓">
+        <meta property="og:title" content="CodersParaphernalia | Top {{strtolower($category->name)}} gift ideas for programmers! 🤓">
         <meta property="og:url" content="{{route('category.show', $category->slug)}}">
         <meta property="og:description" content="{{$category->meta_description}}">
-        <meta property="og:image" content="{{url('images/logo-512x512.png')}}">
+        <meta property="og:image" content="{{url('images/splash-og.png')}}">
+        <meta property="og:image:width" content="1650">
+        <meta property="og:image:height" content="1000">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="CodersParaphernalia - Top {{strtolower($category->name)}} gift ideas for programmers! 🤓">
+        <meta name="twitter:title" content="CodersParaphernalia | Top {{strtolower($category->name)}} gift ideas for programmers! 🤓">
         <meta name="twitter:description" content="{{$category->meta_description}}">
-        <meta name="twitter:image" content="{{url('images/logo-512x512.png')}}">
-        <meta name="twitter:image:src" content="{{url('images/logo-512x512.png')}}">
+        <meta name="twitter:image" content="{{url('images/splash-og.png')}}">
+        <meta name="twitter:image:src" content="{{url('images/splash-og.png')}}">
+        <meta name="twitter:image:alt" content="CodersParaphernalia">
         <meta name="twitter:url" content="{{route('category.show', $category->slug)}}">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -46,8 +49,8 @@
 
     <body>
         <amp-install-serviceworker
-            src="https://codersparaphernalia.com/serviceworker.js"
-            data-iframe-src="https://codersparaphernalia.com/install-serviceworker.html"
+            src="{{ url('serviceworker.js') }}"
+            data-iframe-src="{{ url('install-serviceworker.html') }}"
             layout="nodisplay">
         </amp-install-serviceworker>
         @include('partials.header', [
@@ -73,7 +76,7 @@
         {
             "@context": "http://schema.org",
             "@type": "Organization",
-            "name": "CoderParaphernalia",
+            "name": "CodersParaphernalia",
             "url": "{{route('category.show', $category->slug)}}",
             "logo": "{{url('images/logo-512x512.png')}}"
         }
