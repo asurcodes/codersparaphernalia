@@ -25,6 +25,7 @@
         <meta property="og:image" content="{{url('images/splash-og.png')}}">
         <meta property="og:image:width" content="1650">
         <meta property="og:image:height" content="1000">
+        <meta property="og:image:type" content="image/png">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="CodersParaphernalia">
         <meta name="twitter:card" content="summary_large_image">

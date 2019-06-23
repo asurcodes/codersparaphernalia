@@ -22,7 +22,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_description' => 'If there is something programmers love is to put sticker on everything, buy a bunch of these and they will love you forever.',
                 'html_description' => '
                 <p>
-                    If there is something programmers love is to put sticker on everything, our laptop, our screen or our water bottle, this is one of the best categories for it\'s incredible variety and affordability, there is no chance of failure.
+                    If there is something programmers love is to put stickers on everything, our laptop, our screen or our water bottle, this is one of the best categories for it\'s incredible variety and affordability, there is no chance of failure.
                 </p>
                 <p>
                     We offer different sticker sizes through <a href="https://www.redbubble.com/">Redbubble</a>, small, medium, large and extra large, <b>being the small size price which is listed below</b> and the most suitable for most of cases.
@@ -39,10 +39,10 @@ class CategoriesTableSeeder extends Seeder
                 'meta_description' => 'Get the best gear and decor for your small sanctuary',
                 'html_description' => '
                 <p>
-                    Our office is our sanctuary, our fortress of solitude, make your long working days more confortable with the best gear and decor.
+                    Our office is our sanctuary, our fortress of solitude, make your long working days more comfortable with the best gear and decor.
                 </p>
                 <p>
-                    Also don\'t forget about ergonomics and working hygine, having cool items is important but since we are normally a bit workaholic is important to get ergonomic gear to avoid injuries due to prolonged bad practices. Get yourself a standing desk, raise your screens to view height and correct your back position with a cushion.
+                    Also, don\'t forget about ergonomics and working hygiene, having cool items is important but since we are normally a bit workaholic is important to get ergonomic gear to avoid injuries due to prolonged bad practices. Get yourself a standing desk, raise your screens to view height and correct your back position with a cushion.
                 </p>
                 ',
                 'related' => json_encode(['computers', 'gadgets', 'miscelaneous', 'mugs'])
@@ -56,10 +56,10 @@ class CategoriesTableSeeder extends Seeder
                 'meta_description' => 'Knownledge is power, books are a great way to acquire it',
                 'html_description' => '
                 <p>
-                    Knownledge is power, the more you know, the more you can succeed in every single aspect of your life, books are a great way to acquire it. These are mostly theorical but they include practice aswell. Remember leaders are readers.
+                    Knowledge is power, the more you know, the more you can succeed in every single aspect of your life, books are a great way to acquire it. These are mostly theoretical but they include practice as well. Remember leaders are readers.
                 </p>
                 <p>
-                    These references are for <b>e-books exclusively</b> to promote sustainability, they are also an instant download, cheaper and digitalized so you can copy code snippets, it\'s a win win. ᕕ( ՞ ᗜ ՞ )ᕗ
+                    These references are for <b>e-books exclusively</b> to promote sustainability, they are also an instant download, cheaper and digitalized so you can copy code snippets, it\'s a win-win. ᕕ( ՞ ᗜ ՞ )ᕗ
                 </p>
                 ',
                 'related' => json_encode(['courses', 'accessories', 'gadgets', 'miscelaneous'])
@@ -73,10 +73,10 @@ class CategoriesTableSeeder extends Seeder
                 'meta_description' => 'Couses allow you to progress at a faster rate in your pursuit of excellence',
                 'html_description' => '
                 <p>
-                    Books are really cool but self-taught knowledge takes more time and don\'t forget about practicing, couses allow you to progress at a faster rate in your pursuit of excellence. If you are a seeing leaner or reading is not your thing this is the best choice.
+                    Books are really cool but self-taught knowledge takes more time and don\'t forget about practising, courses allow you to progress at a faster rate in your pursuit of excellence. If you are a seeing leaner or reading is not your thing this is the best choice.
                 </p>
                 <p>
-                    We refer to Udemy for it\'s variety and quality catalog, due to the platform offers rotations we recommend you to wait for these courses to get in sale for $9.99, it may take a couple of weeks but it\'s definetly worth it.
+                    We refer to Udemy for it\'s variety and quality catalogue, due to the platform offers rotations we recommend you to wait for these courses to get in sale for $9.99, it may take a couple of weeks but it\'s definitely worth it.
                 </p>
                 ',
                 'related' => json_encode(['books', 'office', 'computers', 'accessories'])
@@ -90,7 +90,7 @@ class CategoriesTableSeeder extends Seeder
                 'meta_description' => 'Discover new useful and cool items that make our lifes more fun',
                 'html_description' => '
                 <p>
-                    We love to tinker around and discover new useful and cool items (well, not always that useful) that make our lifes more fun and enjoyable. This category embodies the original motto of this website, and as so we have a special care with items end up here, you won\'t be disappointed.
+                    We love to tinker around and discover new useful and cool items (well, not always that useful) that make our lives more fun and enjoyable. This category embodies the original motto of this website, and as so we take special care with items end up here, you won\'t be disappointed.
                 </p>
                 ',
                 'related' => json_encode(['peripherals', 'computers', 'games', 'stickers'])
@@ -110,7 +110,7 @@ class CategoriesTableSeeder extends Seeder
                     We offer <b>PC games only</b>, since every programmer already has a computer, if you want to check out if a game supports your OS search for <b>windows/linux/macos game</b> on the search form.
                 </p>
                 <p>
-                    We use <b>HumbleBundle</b> as a vendor, they are a fair prices and developer friendly platform, you can also choose the percentage you donate to charity, developers, HumbleBundle and this very site at checkout.
+                    We use <b>HumbleBundle</b> as a vendor, they are a fair priced and developer friendly platform, you can also choose the percentage you donate to charity, developers, HumbleBundle and this very site at checkout.
                 </p>
                 ',
                 'related' => json_encode(['peripherals', 'computers', 'stickers', 'laptop-cases'])
@@ -214,13 +214,13 @@ class CategoriesTableSeeder extends Seeder
                 'image' => 'https://placehold.it/600x600',
                 'description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges',
                 'meta_title' => 'The best selection of computers to gift programmers',
-                'meta_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.',
+                'meta_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs thoughtfully chosen with programming in mind.',
                 'html_description' => '
                 <p>
-                    What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs carely chosen with programming in mind.
+                    What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs thoughtfully chosen with programming in mind.
                 </p>
                 ',
-                'related' => json_encode(['laptop-cases', 'stickers', 'periferals', 'gadgets'])
+                'related' => json_encode(['laptop-cases', 'stickers', 'peripherals', 'gadgets'])
             ],
             [
                 'slug' => 'phone-cases',
