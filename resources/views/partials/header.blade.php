@@ -2,6 +2,7 @@
     <div class="container">
         <a href="{{route('home')}}">
             <amp-img src="{{url('images/header.png')}}"
+                class="header-image"
                 width="1960"
                 height="430"
                 layout="responsive"
