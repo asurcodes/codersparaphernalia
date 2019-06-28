@@ -53,7 +53,8 @@ codestyle:
 
 staging:
   stage: deploy
-  script: []
+  script:
+    - heroku container:push web
   environment:
     name: staging
     url: https://codersparaphernalia-staging.herokuapp.com
@@ -62,7 +63,11 @@ staging:
 
 production:
   stage: deploy
-  script: []
+  script:
+    - heroku container:login
+    - heroku create
+    - heroku container:push web
+    - heroku container:release web
   environment:
     name: production
     url: https://codersparaphernalia.herokuapp.com
