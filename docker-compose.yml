@@ -10,7 +10,6 @@ services:
           - "BUILD_ARGUMENT_ENV=dev"
           - "BUILD_ARGUMENT_DEBUG_ENABLED=true"
         dockerfile: ./Dockerfile
-      container_name: laravel
       expose:
         - "80"
         - "443"
@@ -21,13 +20,10 @@ services:
         - .:/var/www/html
       depends_on:
         - db
-      links:
-        - db
 
     db:
       image: postgres:latest
       restart: unless-stopped
       tty: true
-      container_name: coders-postgres
       ports:
         - "5432:5432"

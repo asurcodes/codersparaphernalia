@@ -20,4 +20,4 @@ php artisan optimize
 php artisan migrate:refresh --seed --force
 
 # Restart php-fpm to bust opcache
-service php7.3-fpm restart
+service php7.4-fpm restart

@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:7.4-apache
 
 # set main params
 ARG BUILD_ARGUMENT_DEBUG_ENABLED=false
