@@ -17,7 +17,7 @@ class CreateCategoriesTable extends Migration
             $table->increments('id');
             $table->string('slug')->unique();
             $table->string('name');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->text('description');
             $table->string('meta_title');
             $table->text('meta_description');

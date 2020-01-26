@@ -16,7 +16,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'stickers',
                 'name' => 'Stickers',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'If there is something programmers love is to put sticker on everything.',
                 'meta_title' => 'The best selection of stickers to gift programmers',
                 'meta_description' => 'If there is something programmers love is to put sticker on everything, buy a bunch of these and they will love you forever.',
@@ -33,7 +32,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'office',
                 'name' => 'Office',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'Get the best gear and decor for your small sanctuary',
                 'meta_title' => 'The best selection of products for the office to gift programmers',
                 'meta_description' => 'Get the best gear and decor for your small sanctuary',
@@ -50,7 +48,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'books',
                 'name' => 'Books',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'Knownledge is power, books are a great way to acquire it',
                 'meta_title' => 'The best selection of books to gift programmers',
                 'meta_description' => 'Knownledge is power, books are a great way to acquire it',
@@ -67,7 +64,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'courses',
                 'name' => 'Courses',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'Couses allow you to progress at a faster rate in your pursuit of excellence',
                 'meta_title' => 'The best selection of courses to gift programmers',
                 'meta_description' => 'Couses allow you to progress at a faster rate in your pursuit of excellence',
@@ -84,7 +80,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'gadgets',
                 'name' => 'Gadgets',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'Discover new useful and cool items that make our lifes more fun',
                 'meta_title' => 'The best selection of gadgets to gift programmers',
                 'meta_description' => 'Discover new useful and cool items that make our lifes more fun',
@@ -98,7 +93,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'games',
                 'name' => 'Games',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'Let\'s face it, many of us still carry a kid inside, and kids love their videogames',
                 'meta_title' => 'The best selection of games to gift programmers',
                 'meta_description' => 'Let\'s face it, many of us still carry a kid inside, and kids love their videogames',
@@ -118,7 +112,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'peripherals',
                 'name' => 'Peripherals',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware.',
                 'meta_title' => 'The best selection of peripherals to gift programmers',
                 'meta_description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware and periferals.',
@@ -132,7 +125,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'miscelaneous',
                 'name' => 'Miscelaneous',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'These are the products that we love but we don\'t really have a category for',
                 'meta_title' => 'The best selection of miscelaneous items to gift programmers',
                 'meta_description' => 'These are the products that we love but we don\'t really have a category for',
@@ -146,7 +138,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'men-apparel',
                 'name' => 'Men Apparel',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'We aren\'t really well known for our good styling skills, here you have the solution',
                 'meta_title' => 'The best selection of men clothes and accesories to gift programmers',
                 'meta_description' => 'We aren\'t really well known for our good styling skills, here you have the solution',
@@ -163,7 +154,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'women-apparel',
                 'name' => 'Women Apparel',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'Level up your game and show off with these trendy clothes',
                 'meta_title' => 'The best selection of women clothes and accesories to gift programmers',
                 'meta_description' => 'Level up your game and show off with these trendy clothes',
@@ -180,7 +170,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'babies-apparel',
                 'name' => 'Babies Apparel',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'The earlier they start the better, put them on some clothes and let it start soaking in',
                 'meta_title' => 'The best selection of baby clothes and accesories to gift programmers',
                 'meta_description' => 'The earlier they start the better, put them on some clothes and let it start soaking in',
@@ -197,7 +186,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'accessories',
                 'name' => 'Accessories',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'Pearls to shout to the world what your passion is',
                 'meta_title' => 'The best selection of accessories to gift programmers',
                 'meta_description' => 'Pearls to shout to the world what your passion is',
@@ -211,7 +199,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'computers',
                 'name' => 'Computers',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges',
                 'meta_title' => 'The best selection of computers to gift programmers',
                 'meta_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs thoughtfully chosen with programming in mind.',
@@ -225,7 +212,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'phone-cases',
                 'name' => 'Phone cases',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'Now a days our entire life is on our smartphone, protecting it is important, do it with style',
                 'meta_title' => 'The best selection of phone cases to gift programmers',
                 'meta_description' => 'Now a days our entire life is on our smartphone, protecting it is important, do it with style',
@@ -239,7 +225,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'laptop-cases',
                 'name' => 'Laptop cases',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'Cool looking cases and skins for a programmers best friend',
                 'meta_title' => 'The best selection of laptop cases to gift programmers',
                 'meta_description' => 'Cool looking cases and skins for a programmers best friend',
@@ -253,7 +238,6 @@ class CategoriesTableSeeder extends Seeder
             [
                 'slug' => 'mugs',
                 'name' => 'Mugs',
-                'image' => 'https://placehold.it/600x600',
                 'description' => 'We love our coffee, we don\'t get paid with it tho, those designs are JOKES',
                 'meta_title' => 'The best selection of mugs to gift programmers',
                 'meta_description' => 'We love our coffee, we don\'t get paid with it tho, those designs are JOKES',

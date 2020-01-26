@@ -122,24 +122,6 @@ class ComputersSeeder extends Seeder
                 'tags' => ['mini', 'server'],
                 'vendor' => 'amazon'
             ],
-            [
-                'slug' => 'system-76-darter-pro-laptop',
-                'title' => 'System76 Darter PRO, Fully Configurable Linux Ultrabook',
-                'image' => 'https://cdn-system76.com/assets/products/darp5/thumb-b090ce39a7.png',
-                'url' => 'https://system76.com/laptops/darter',
-                'price' => 999.00,
-                'tags' => ['linux', 'functional', 'ubuntu', 'portable'],
-                'vendor' => 'other'
-            ],
-            [
-                'slug' => 'system-76-gazelle-laptop',
-                'title' => 'System76 Gazelle, Fully Configurable Linux Laptop',
-                'image' => 'https://cdn-system76.com/assets/products/gaze13/thumb-1e9786a660.png',
-                'url' => 'https://system76.com/laptops/gazelle',
-                'price' => 869.00,
-                'tags' => ['linux', 'functional', 'ubuntu'],
-                'vendor' => 'other'
-            ],
         ]);
     }
 }

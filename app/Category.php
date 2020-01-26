@@ -15,6 +15,17 @@ class Category extends Model
         'related' => 'array',
     ];
 
+
+    /**
+     * Get the category image with fallback
+     *
+     * @return string
+     */
+    public function getImageAttribute($image)
+    {
+        return $image ?: $this->products()->first()->image;
+    }
+
     /**
      * Get the category products relationship
      *
