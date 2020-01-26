@@ -1,29 +1,49 @@
-version: '3'
-
+version: '3.7'
 services:
 
-    laravel:
-      image: laravel:latest
-      build:
-        context: .
-        args:
-          - "BUILD_ARGUMENT_ENV=dev"
-          - "BUILD_ARGUMENT_DEBUG_ENABLED=true"
-        dockerfile: ./Dockerfile
-      expose:
-        - "80"
-        - "443"
-      ports:
+  #PHP Service
+  app:
+    build:
+      context: .
+    container_name: app
+    restart: unless-stopped
+    tty: true
+    working_dir: /var/www/html
+    volumes:
+        - ./:/var/www/html
+    depends_on:
+      - db
+
+  #Nginx Service
+  webserver:
+    image: nginx:alpine
+    container_name: webserver
+    restart: unless-stopped
+    tty: true
+    ports:
         - "80:80"
         - "443:443"
-      volumes:
-        - .:/var/www/html
-      depends_on:
-        - db
+    volumes:
+        - ./:/var/www/html
+        - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+        - ./docker/nginx/ssl/:/etc/nginx/ssl/
 
-    db:
-      image: postgres:latest
-      restart: unless-stopped
-      tty: true
-      ports:
-        - "5432:5432"
+  #MySQL Service
+  db:
+    image: mysql:8
+    container_name: db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: codersparaphernalia
+      MYSQL_ROOT_PASSWORD: secret
+    command: --default-authentication-plugin=mysql_native_password
+
+  #Redis Service
+  cache:
+    image: redis:latest
+    container_name: cache
+    restart: unless-stopped
+    tty: true
