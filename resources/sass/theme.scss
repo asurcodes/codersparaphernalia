@@ -25,13 +25,18 @@ main {
 }
 footer {
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
 }
 h1, h2, h3 {
     text-align: center;
 }
 h1 {
-    line-height: 1.5rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 2rem;
 }
 p {
     font-size: 1.2rem;
@@ -45,7 +50,7 @@ a {
 }
 .container {
     margin: 2rem;
-    line-height: 2rem;
+    line-height: 1.6rem;
 }
 .container--fluid {
     margin: 1rem 0;
