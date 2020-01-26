@@ -17,6 +17,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'stickers',
                 'name' => 'Stickers',
                 'description' => 'If there is something programmers love is to put sticker on everything.',
+                'image' => '/images/categories/stickers.jpg',
                 'meta_title' => 'The best selection of stickers to gift programmers',
                 'meta_description' => 'If there is something programmers love is to put sticker on everything, buy a bunch of these and they will love you forever.',
                 'html_description' => '
@@ -33,6 +34,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'office',
                 'name' => 'Office',
                 'description' => 'Get the best gear and decor for your small sanctuary',
+                'image' => '/images/categories/office.jpg',
                 'meta_title' => 'The best selection of products for the office to gift programmers',
                 'meta_description' => 'Get the best gear and decor for your small sanctuary',
                 'html_description' => '
@@ -49,6 +51,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'books',
                 'name' => 'Books',
                 'description' => 'Knownledge is power, books are a great way to acquire it',
+                'image' => '/images/categories/books.jpg',
                 'meta_title' => 'The best selection of books to gift programmers',
                 'meta_description' => 'Knownledge is power, books are a great way to acquire it',
                 'html_description' => '
@@ -65,6 +68,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'courses',
                 'name' => 'Courses',
                 'description' => 'Couses allow you to progress at a faster rate in your pursuit of excellence',
+                'image' => '/images/categories/courses.jpg',
                 'meta_title' => 'The best selection of courses to gift programmers',
                 'meta_description' => 'Couses allow you to progress at a faster rate in your pursuit of excellence',
                 'html_description' => '
@@ -81,6 +85,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'gadgets',
                 'name' => 'Gadgets',
                 'description' => 'Discover new useful and cool items that make our lifes more fun',
+                'image' => '/images/categories/gadgets.jpg',
                 'meta_title' => 'The best selection of gadgets to gift programmers',
                 'meta_description' => 'Discover new useful and cool items that make our lifes more fun',
                 'html_description' => '
@@ -94,6 +99,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'games',
                 'name' => 'Games',
                 'description' => 'Let\'s face it, many of us still carry a kid inside, and kids love their videogames',
+                'image' => '/images/categories/games.jpg',
                 'meta_title' => 'The best selection of games to gift programmers',
                 'meta_description' => 'Let\'s face it, many of us still carry a kid inside, and kids love their videogames',
                 'html_description' => '
@@ -113,6 +119,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'peripherals',
                 'name' => 'Peripherals',
                 'description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware.',
+                'image' => '/images/categories/peripherals.jpg',
                 'meta_title' => 'The best selection of peripherals to gift programmers',
                 'meta_description' => 'Any professional needs the right tools to perform at it\'s fullest potential, gift some hardware and periferals.',
                 'html_description' => '
@@ -126,6 +133,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'miscelaneous',
                 'name' => 'Miscelaneous',
                 'description' => 'These are the products that we love but we don\'t really have a category for',
+                'image' => '/images/categories/miscelaneous.jpg',
                 'meta_title' => 'The best selection of miscelaneous items to gift programmers',
                 'meta_description' => 'These are the products that we love but we don\'t really have a category for',
                 'html_description' => '
@@ -139,6 +147,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'men-apparel',
                 'name' => 'Men Apparel',
                 'description' => 'We aren\'t really well known for our good styling skills, here you have the solution',
+                'image' => '/images/categories/men-apparel.jpg',
                 'meta_title' => 'The best selection of men clothes and accesories to gift programmers',
                 'meta_description' => 'We aren\'t really well known for our good styling skills, here you have the solution',
                 'html_description' => '
@@ -155,6 +164,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'women-apparel',
                 'name' => 'Women Apparel',
                 'description' => 'Level up your game and show off with these trendy clothes',
+                'image' => '/images/categories/women-apparel.jpg',
                 'meta_title' => 'The best selection of women clothes and accesories to gift programmers',
                 'meta_description' => 'Level up your game and show off with these trendy clothes',
                 'html_description' => '
@@ -168,25 +178,10 @@ class CategoriesTableSeeder extends Seeder
                 'related' => json_encode(['accessories', 'mugs', 'men-apparel', 'babies-apparel'])
             ],
             [
-                'slug' => 'babies-apparel',
-                'name' => 'Babies Apparel',
-                'description' => 'The earlier they start the better, put them on some clothes and let it start soaking in',
-                'meta_title' => 'The best selection of baby clothes and accesories to gift programmers',
-                'meta_description' => 'The earlier they start the better, put them on some clothes and let it start soaking in',
-                'html_description' => '
-                <p>
-                    The earlier they start the better, put them on some clothes and let it start soaking in.
-                </p>
-                <p>
-                    We offer a range of sizes from newborn to 18 months old.
-                </p>
-                ',
-                'related' => json_encode(['women-apparel', 'men-apparel', 'courses', 'books'])
-            ],
-            [
                 'slug' => 'accessories',
                 'name' => 'Accessories',
                 'description' => 'Pearls to shout to the world what your passion is',
+                'image' => '/images/categories/accessories.jpg',
                 'meta_title' => 'The best selection of accessories to gift programmers',
                 'meta_description' => 'Pearls to shout to the world what your passion is',
                 'html_description' => '
@@ -200,6 +195,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'computers',
                 'name' => 'Computers',
                 'description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges',
+                'image' => '/images/categories/computers.jpg',
                 'meta_title' => 'The best selection of computers to gift programmers',
                 'meta_description' => 'What would we do without our trusty daily computer? A selection of laptops in all price ranges with specs thoughtfully chosen with programming in mind.',
                 'html_description' => '
@@ -213,6 +209,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'phone-cases',
                 'name' => 'Phone cases',
                 'description' => 'Now a days our entire life is on our smartphone, protecting it is important, do it with style',
+                'image' => '/images/categories/phone-cases.jpg',
                 'meta_title' => 'The best selection of phone cases to gift programmers',
                 'meta_description' => 'Now a days our entire life is on our smartphone, protecting it is important, do it with style',
                 'html_description' => '
@@ -226,6 +223,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'laptop-cases',
                 'name' => 'Laptop cases',
                 'description' => 'Cool looking cases and skins for a programmers best friend',
+                'image' => '/images/categories/laptop-cases.jpg',
                 'meta_title' => 'The best selection of laptop cases to gift programmers',
                 'meta_description' => 'Cool looking cases and skins for a programmers best friend',
                 'html_description' => '
@@ -239,6 +237,7 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'mugs',
                 'name' => 'Mugs',
                 'description' => 'We love our coffee, we don\'t get paid with it tho, those designs are JOKES',
+                'image' => '/images/categories/mugs.jpg',
                 'meta_title' => 'The best selection of mugs to gift programmers',
                 'meta_description' => 'We love our coffee, we don\'t get paid with it tho, those designs are JOKES',
                 'html_description' => '

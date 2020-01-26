@@ -31,7 +31,6 @@ class HomeComposer
                 'raspberry-pi-3-b-mini-computer',
                 'rosewill-mechanical-brown-switches-keyboard',
                 'sitting-tux-stress-toy',
-                'ergodriven-standing-desk-antifatigue-mat'
             ];
             return Product::whereIn('slug', $topProductsSlugs)->get();
         });

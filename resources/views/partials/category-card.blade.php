@@ -1,7 +1,7 @@
 <div class="card card--category">
     <a href="{{route('category.show', $category->slug)}}" aria-label="View more items in {{$category->name}}">
         <amp-img src="{{$category->image}}"
-            width="600"
+            width="900"
             height="600"
             layout="responsive"
             alt="{{$category->name}}">
