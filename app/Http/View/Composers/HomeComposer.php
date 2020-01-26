@@ -21,7 +21,6 @@ class HomeComposer
                 'new-kindle-paperwhite-e-book',
                 'rocketbook-wave-reusable-smart-notebook',
                 'arduino-official-starter-kit',
-                'system-76-gazelle-laptop',
                 'nerf-n-strike-elite-nerf-gun',
                 'cards-against-humanity-game',
                 'thule-paramount-daypack',
@@ -31,7 +30,8 @@ class HomeComposer
                 'wacaco-portable-expresso-machine',
                 'raspberry-pi-3-b-mini-computer',
                 'rosewill-mechanical-brown-switches-keyboard',
-                'sitting-tux-stress-toy'
+                'sitting-tux-stress-toy',
+                'ergodriven-standing-desk-antifatigue-mat'
             ];
             return Product::whereIn('slug', $topProductsSlugs)->get();
         });
